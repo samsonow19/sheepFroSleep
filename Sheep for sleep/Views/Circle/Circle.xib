@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cookies.ttf">
+            <string>Cookies</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Circle" customModule="Sheep_for_sleep" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woC-2x-Wo1">
+                    <rect key="frame" x="102.5" y="65" width="170" height="170"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="170" id="0oa-QM-1Qi"/>
+                        <constraint firstAttribute="height" constant="170" id="HLH-OV-X6A"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPr-Q2-VwS">
+                    <rect key="frame" x="163" y="110.5" width="49" height="80"/>
+                    <fontDescription key="fontDescription" name="Cookies" family="Cookies" pointSize="80"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="woC-2x-Wo1" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="6BM-no-yJf"/>
+                <constraint firstItem="woC-2x-Wo1" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="imI-hq-1fo"/>
+                <constraint firstItem="yPr-Q2-VwS" firstAttribute="centerX" secondItem="woC-2x-Wo1" secondAttribute="centerX" id="m6s-tN-bZx"/>
+                <constraint firstItem="yPr-Q2-VwS" firstAttribute="centerY" secondItem="woC-2x-Wo1" secondAttribute="centerY" id="zFb-e5-Je4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="circleView" destination="woC-2x-Wo1" id="lOb-8Q-TWS"/>
+                <outlet property="countLable" destination="yPr-Q2-VwS" id="Zau-1i-B9N"/>
+            </connections>
+            <point key="canvasLocation" x="-27" y="-12"/>
+        </view>
+    </objects>
+</document>
