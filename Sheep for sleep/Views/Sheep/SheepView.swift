@@ -13,6 +13,8 @@ class SheepView: UIView {
     @IBOutlet weak var sheepImage: UIImageView!
     //defoult - 120 move - 180
     @IBOutlet weak var widthConstaraint: NSLayoutConstraint!
+    @IBOutlet weak var widthSheep: NSLayoutConstraint!
+    @IBOutlet weak var heightSheep: NSLayoutConstraint!
     var widthDefoult: CGFloat = 120
     var widthMove: CGFloat = 185
     var p0: CGPoint!
@@ -25,7 +27,9 @@ class SheepView: UIView {
     var active: Bool = true
     weak var delegate: MovedSheep?
     var isMoving: Bool = false
-    
+    var movingSheepImageName: String = "movingSheepImageNameDark1"
+    var defaultSheepImageName: String = "defaultSheepImageNameDark1"
+    var sheepMainGif: String = "sheep_1@3x"
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -48,7 +52,7 @@ class SheepView: UIView {
         delegate?.firstTouch()
 
  
-        sheepImage.image = UIImage(named: "MovingSheep")
+        sheepImage.image = UIImage(named: movingSheepImageName)
         widthConstaraint.constant = widthMove
     }
     
@@ -62,7 +66,7 @@ class SheepView: UIView {
         
         var distanceXInRange = distanceX / bezierPathXMax
         distanceXInRange = distanceXInRange > 0 ? distanceXInRange : -distanceXInRange
-        print(distanceXInRange)
+        //print(distanceXInRange)
         if distanceXInRange >= 1 || distanceXInRange <= 0 {
             return
         }
@@ -71,7 +75,7 @@ class SheepView: UIView {
         
         let newX = getPointAtPercent(t: Float(distanceXInRange), start: Float(p0.x) , c1: Float(p1.x), end: Float(p2.x))
         
-        if distanceXInRange > 0.6 && active {
+        if distanceXInRange > 0.3 && active {
             active = false
 
             automaticMoving(x: newX, y: newY)
@@ -83,12 +87,19 @@ class SheepView: UIView {
         
     }
     
+    func fastEndMoving() {
+        self.delegate?.endMove(view: self)
+    }
+    
     private func automaticMoving(x: Float, y: Float) {
-
+        //fast create cheep use for test
+       // delegate?.createSheep();
         CATransaction.begin()
-        CATransaction.setCompletionBlock({
-            self.center = self.p2
-            self.sheepLeave()
+        CATransaction.setCompletionBlock({ [weak self] in
+            if let currentView = self {
+                self?.center = currentView.p2
+                self?.sheepLeave()
+            }
         })
         let animation = CAKeyframeAnimation(keyPath: "position")
         let newBezierPath = UIBezierPath()
@@ -107,13 +118,24 @@ class SheepView: UIView {
     }
     
     private func sheepLeave() {
+        sheepImage.image = UIImage(named: defaultSheepImageName)
+        // Размер после приземления
+        
+        //171
+        widthSheep.constant = 150
+        heightSheep.constant = 165
+        
         var newPosition = p2
         newPosition?.x = 1000
         CATransaction.begin()
-        
-        CATransaction.setCompletionBlock({
-            self.center = newPosition!
-            self.delegate?.endMove(view: self)
+        delegate?.createSheep();
+        CATransaction.setCompletionBlock({ [weak self] in
+            if let currentView = self {
+                self?.center = newPosition!
+                self?.delegate?.endMove(view: currentView)
+            } else {
+                return
+            }
         })
         let animation = CAKeyframeAnimation(keyPath: "position")
         let newBezierPath = UIBezierPath()
@@ -140,7 +162,7 @@ class SheepView: UIView {
             UIView.animate(withDuration: 0.3, animations: {
                 self.center = self.p0
             })
-            sheepImage.loadGif(name: "sheep_1@3x")
+            sheepImage.loadGif(name: sheepMainGif)
             widthConstaraint.constant = widthDefoult
         }
     }
@@ -160,4 +182,5 @@ class SheepView: UIView {
 protocol MovedSheep: class {
     func endMove(view: UIView)
     func firstTouch()
+    func createSheep()
 }

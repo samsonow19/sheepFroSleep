@@ -97,3 +97,35 @@ public extension UIDevice {
         return Model.unrecognized
     }
 }
+
+enum ScreenType {
+    
+    case undefined
+    case iPhone4
+    case iPhone5
+    case iPhone6
+    case iPhone6Plus
+    case iPhoneX
+    
+    static func currentScreenType() -> ScreenType {
+        
+        let screenHeight = UIScreen.main.bounds.height
+        
+        switch screenHeight {
+            
+        case 480:
+            return .iPhone4
+        case 568:
+            return .iPhone5
+        case 667:
+            return .iPhone6
+        case 736:
+            return .iPhone6Plus
+        case 812:
+            return .iPhoneX
+        default:
+            return .undefined
+        }
+    }
+    
+}

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4116C1F30E5B2326CA7089A34F184B11"
+               BlueprintIdentifier = "9D46B08B5C9D17863C0378304B3B2652"
                BuildableName = "Pods_Sheep_for_sleep.framework"
                BlueprintName = "Pods-Sheep for sleep"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4116C1F30E5B2326CA7089A34F184B11"
+            BlueprintIdentifier = "9D46B08B5C9D17863C0378304B3B2652"
             BuildableName = "Pods_Sheep_for_sleep.framework"
             BlueprintName = "Pods-Sheep for sleep"
             ReferencedContainer = "container:Pods.xcodeproj">

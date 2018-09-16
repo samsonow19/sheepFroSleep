@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SheepRecords+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:SheepRecords+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:Sheep for sleep.xcodeproj">
    </FileRef>
    <FileRef

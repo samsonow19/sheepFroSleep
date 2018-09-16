@@ -7,6 +7,7 @@ target 'Sheep for sleep' do
 
   # Pods for Sheep for sleep
   pod "Hero"
+  pod "PromiseKit", "~> 6.0"
   
 
 end

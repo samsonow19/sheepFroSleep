@@ -16,7 +16,7 @@ class FirstSleepVC: UIViewController {
         super.viewDidLoad()
         sheepImage.loadGif(name: "sheepSleep1")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             self.hero.dismissViewController()
         }
     }

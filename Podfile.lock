@@ -1,12 +1,28 @@
 PODS:
   - Hero (1.1.0)
+  - PromiseKit (6.2.4):
+    - PromiseKit/CorePromise (= 6.2.4)
+    - PromiseKit/Foundation (= 6.2.4)
+    - PromiseKit/UIKit (= 6.2.4)
+  - PromiseKit/CorePromise (6.2.4)
+  - PromiseKit/Foundation (6.2.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.4):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - Hero
+  - PromiseKit (~> 6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Hero
+    - PromiseKit
 
 SPEC CHECKSUMS:
   Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
+  PromiseKit: 625b1fc69944fc839503748101c5968cf54b527b
 
-PODFILE CHECKSUM: 22bc05c25652206d1ec06a6ff3dcb1dd0ac449e3
+PODFILE CHECKSUM: d349c16dd63c2bad1b77cd2f160778cc7baedaa0
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

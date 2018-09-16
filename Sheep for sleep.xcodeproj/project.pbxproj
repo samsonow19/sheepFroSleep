@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD15D97520793F11008B8AF7 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD15D97420793F11008B8AF7 /* music.mp3 */; };
+		AD107F9E2087B811006820C0 /* SheepData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD107F9C2087B811006820C0 /* SheepData.xcdatamodeld */; };
+		AD107FA92087BF6B006820C0 /* SheepDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD107FA82087BF6B006820C0 /* SheepDataService.swift */; };
+		AD10A7A1209278B0007EED34 /* sheep_4@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A79C209278AB007EED34 /* sheep_4@3x.gif */; };
+		AD10A7A2209278B0007EED34 /* sheep_2@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A79D209278AB007EED34 /* sheep_2@3x.gif */; };
+		AD10A7A3209278B0007EED34 /* sheep_5@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A79E209278AC007EED34 /* sheep_5@3x.gif */; };
+		AD10A7A4209278B0007EED34 /* sheep_6@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A79F209278AD007EED34 /* sheep_6@3x.gif */; };
+		AD10A7A5209278B0007EED34 /* sheep_3@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A7A0209278AF007EED34 /* sheep_3@3x.gif */; };
+		AD10A7AC20927A2E007EED34 /* sheepRun3.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A7A720927A2B007EED34 /* sheepRun3.gif */; };
+		AD10A7AD20927A2E007EED34 /* sheepRun6.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A7A820927A2C007EED34 /* sheepRun6.gif */; };
+		AD10A7AE20927A2E007EED34 /* sheepRun2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A7A920927A2C007EED34 /* sheepRun2.gif */; };
+		AD10A7AF20927A2E007EED34 /* sheepRun5.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A7AA20927A2C007EED34 /* sheepRun5.gif */; };
+		AD10A7B020927A2E007EED34 /* sheepRun4.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD10A7AB20927A2D007EED34 /* sheepRun4.gif */; };
 		AD15D97820795135008B8AF7 /* StarBig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D97720795135008B8AF7 /* StarBig.swift */; };
 		AD15D97A207951C4008B8AF7 /* StarSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D979207951C4008B8AF7 /* StarSmall.swift */; };
-		AD15D97C207BEA89008B8AF7 /* sheepSleep1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD15D97B207BEA89008B8AF7 /* sheepSleep1.gif */; };
-		AD15D97E207BEAAA008B8AF7 /* sheepSleep2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD15D97D207BEAAA008B8AF7 /* sheepSleep2.gif */; };
 		AD15D980207BF887008B8AF7 /* FirstSleepVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D97F207BF887008B8AF7 /* FirstSleepVC.swift */; };
 		AD15D982207BF8CB008B8AF7 /* SecondSleepVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D981207BF8CB008B8AF7 /* SecondSleepVC.swift */; };
 		AD15D984207C0795008B8AF7 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D983207C0795008B8AF7 /* UIDevice.swift */; };
+		AD4AC311208E383500D5D550 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4AC310208E383500D5D550 /* CALayer.swift */; };
+		AD652E6C20AB716C003A424D /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD652E6B20AB716C003A424D /* music.mp3 */; };
+		AD67CE2E208D3CEB00B535F2 /* sheepRun1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD67CE2D208D3CEB00B535F2 /* sheepRun1.gif */; };
+		AD67CE32208D407F00B535F2 /* superSheep.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD67CE31208D407F00B535F2 /* superSheep.gif */; };
 		AD6C9394207E761C00A45D3A /* Mountains.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C9393207E761C00A45D3A /* Mountains.swift */; };
 		AD6C9397207E767700A45D3A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C9396207E767700A45D3A /* Constants.swift */; };
 		AD70C978206FF03700A6F7A7 /* sheep_1@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD70C977206FF03700A6F7A7 /* sheep_1@3x.gif */; };
@@ -23,6 +36,8 @@
 		AD70C98120701AFE00A6F7A7 /* Circle.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD70C98020701AFE00A6F7A7 /* Circle.xib */; };
 		AD70C98520701BCF00A6F7A7 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70C98420701BCF00A6F7A7 /* Circle.swift */; };
 		AD70C9912074058400A6F7A7 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70C9902074058400A6F7A7 /* UIColor.swift */; };
+		AD7FE76420C5AF17009BCC5F /* sheepSleep1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD7FE76320C5AF17009BCC5F /* sheepSleep1.gif */; };
+		AD7FE76620C5AF42009BCC5F /* sheepSleep2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD7FE76520C5AF42009BCC5F /* sheepSleep2.gif */; };
 		AD9C12CD205E99500039A9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C12CC205E99500039A9EF /* AppDelegate.swift */; };
 		AD9C12CF205E99500039A9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C12CE205E99500039A9EF /* ViewController.swift */; };
 		AD9C12D2205E99500039A9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9C12D0205E99500039A9EF /* Main.storyboard */; };
@@ -30,10 +45,16 @@
 		AD9C12D7205E99500039A9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9C12D5205E99500039A9EF /* LaunchScreen.storyboard */; };
 		AD9C12E0205E9BD50039A9EF /* Cookies.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9C12DF205E9BD50039A9EF /* Cookies.ttf */; };
 		AD9C12E2205EA1020039A9EF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C12E1205EA1020039A9EF /* GameViewController.swift */; };
+		ADB6E87F20868422006E55C9 /* HeaderSheepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB6E87E20868422006E55C9 /* HeaderSheepCell.xib */; };
+		ADB6E88120868436006E55C9 /* HeaderSheepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E88020868436006E55C9 /* HeaderSheepCell.swift */; };
+		ADBCC2A02086798C0045D9B5 /* TableSheepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBCC29F2086798C0045D9B5 /* TableSheepViewController.swift */; };
+		ADBCC2A320867AA20045D9B5 /* SheepRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADBCC2A220867AA20045D9B5 /* SheepRecordCell.xib */; };
+		ADBCC2A720867ACA0045D9B5 /* SheepRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBCC2A620867ACA0045D9B5 /* SheepRecordCell.swift */; };
 		ADE7CAAA205EA4B4002FDBF7 /* SheepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7CAA9205EA4B4002FDBF7 /* SheepView.swift */; };
 		ADE7CAAC205EA4C9002FDBF7 /* SheepView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE7CAAB205EA4C9002FDBF7 /* SheepView.xib */; };
 		ADE7CAAF205EA5C4002FDBF7 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7CAAE205EA5C4002FDBF7 /* UIView.swift */; };
 		ADE7CAB2205EA747002FDBF7 /* AnimationSheep.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADE7CAB1205EA747002FDBF7 /* AnimationSheep.gif */; };
+		ADF7CFF420A88C9D000EC24C /* HandlerAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7CFF320A88C9D000EC24C /* HandlerAppDelegate.swift */; };
 		EF59D875E08B1468A6974368 /* Pods_Sheep_for_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D61CFA3F1AF9403B2FECEA /* Pods_Sheep_for_sleep.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,14 +62,27 @@
 		0CEF352D9A79EE70A29EC0AE /* Pods-Sheep for sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sheep for sleep.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sheep for sleep/Pods-Sheep for sleep.release.xcconfig"; sourceTree = "<group>"; };
 		22D61CFA3F1AF9403B2FECEA /* Pods_Sheep_for_sleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sheep_for_sleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FA3586A3C4E657C9E7F408 /* Pods-Sheep for sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sheep for sleep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sheep for sleep/Pods-Sheep for sleep.debug.xcconfig"; sourceTree = "<group>"; };
-		AD15D97420793F11008B8AF7 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		AD107F9D2087B811006820C0 /* SheepData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SheepData.xcdatamodel; sourceTree = "<group>"; };
+		AD107FA82087BF6B006820C0 /* SheepDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepDataService.swift; sourceTree = "<group>"; };
+		AD10A79C209278AB007EED34 /* sheep_4@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sheep_4@3x.gif"; sourceTree = "<group>"; };
+		AD10A79D209278AB007EED34 /* sheep_2@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sheep_2@3x.gif"; sourceTree = "<group>"; };
+		AD10A79E209278AC007EED34 /* sheep_5@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sheep_5@3x.gif"; sourceTree = "<group>"; };
+		AD10A79F209278AD007EED34 /* sheep_6@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sheep_6@3x.gif"; sourceTree = "<group>"; };
+		AD10A7A0209278AF007EED34 /* sheep_3@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sheep_3@3x.gif"; sourceTree = "<group>"; };
+		AD10A7A720927A2B007EED34 /* sheepRun3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepRun3.gif; sourceTree = "<group>"; };
+		AD10A7A820927A2C007EED34 /* sheepRun6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepRun6.gif; sourceTree = "<group>"; };
+		AD10A7A920927A2C007EED34 /* sheepRun2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepRun2.gif; sourceTree = "<group>"; };
+		AD10A7AA20927A2C007EED34 /* sheepRun5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepRun5.gif; sourceTree = "<group>"; };
+		AD10A7AB20927A2D007EED34 /* sheepRun4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepRun4.gif; sourceTree = "<group>"; };
 		AD15D97720795135008B8AF7 /* StarBig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBig.swift; sourceTree = "<group>"; };
 		AD15D979207951C4008B8AF7 /* StarSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSmall.swift; sourceTree = "<group>"; };
-		AD15D97B207BEA89008B8AF7 /* sheepSleep1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepSleep1.gif; sourceTree = "<group>"; };
-		AD15D97D207BEAAA008B8AF7 /* sheepSleep2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepSleep2.gif; sourceTree = "<group>"; };
 		AD15D97F207BF887008B8AF7 /* FirstSleepVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSleepVC.swift; sourceTree = "<group>"; };
 		AD15D981207BF8CB008B8AF7 /* SecondSleepVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSleepVC.swift; sourceTree = "<group>"; };
 		AD15D983207C0795008B8AF7 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		AD4AC310208E383500D5D550 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		AD652E6B20AB716C003A424D /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		AD67CE2D208D3CEB00B535F2 /* sheepRun1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepRun1.gif; sourceTree = "<group>"; };
+		AD67CE31208D407F00B535F2 /* superSheep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = superSheep.gif; sourceTree = "<group>"; };
 		AD6C9393207E761C00A45D3A /* Mountains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountains.swift; sourceTree = "<group>"; };
 		AD6C9396207E767700A45D3A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AD70C977206FF03700A6F7A7 /* sheep_1@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sheep_1@3x.gif"; sourceTree = "<group>"; };
@@ -57,6 +91,8 @@
 		AD70C98020701AFE00A6F7A7 /* Circle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Circle.xib; sourceTree = "<group>"; };
 		AD70C98420701BCF00A6F7A7 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		AD70C9902074058400A6F7A7 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		AD7FE76320C5AF17009BCC5F /* sheepSleep1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepSleep1.gif; sourceTree = "<group>"; };
+		AD7FE76520C5AF42009BCC5F /* sheepSleep2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sheepSleep2.gif; sourceTree = "<group>"; };
 		AD9C12C9205E99500039A9EF /* Sheep for sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sheep for sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9C12CC205E99500039A9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9C12CE205E99500039A9EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,10 +102,16 @@
 		AD9C12D8205E99500039A9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9C12DF205E9BD50039A9EF /* Cookies.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cookies.ttf; sourceTree = "<group>"; };
 		AD9C12E1205EA1020039A9EF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ADB6E87E20868422006E55C9 /* HeaderSheepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSheepCell.xib; sourceTree = "<group>"; };
+		ADB6E88020868436006E55C9 /* HeaderSheepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSheepCell.swift; sourceTree = "<group>"; };
+		ADBCC29F2086798C0045D9B5 /* TableSheepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSheepViewController.swift; sourceTree = "<group>"; };
+		ADBCC2A220867AA20045D9B5 /* SheepRecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheepRecordCell.xib; sourceTree = "<group>"; };
+		ADBCC2A620867ACA0045D9B5 /* SheepRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepRecordCell.swift; sourceTree = "<group>"; };
 		ADE7CAA9205EA4B4002FDBF7 /* SheepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepView.swift; sourceTree = "<group>"; };
 		ADE7CAAB205EA4C9002FDBF7 /* SheepView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheepView.xib; sourceTree = "<group>"; };
 		ADE7CAAE205EA5C4002FDBF7 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		ADE7CAB1205EA747002FDBF7 /* AnimationSheep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnimationSheep.gif; sourceTree = "<group>"; };
+		ADF7CFF320A88C9D000EC24C /* HandlerAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +134,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD107FA32087B931006820C0 /* SheepData */ = {
+			isa = PBXGroup;
+			children = (
+				AD107F9C2087B811006820C0 /* SheepData.xcdatamodeld */,
+				AD107FA82087BF6B006820C0 /* SheepDataService.swift */,
+			);
+			path = SheepData;
+			sourceTree = "<group>";
+		};
+		AD10A79B20927895007EED34 /* mainSheep */ = {
+			isa = PBXGroup;
+			children = (
+				AD70C977206FF03700A6F7A7 /* sheep_1@3x.gif */,
+				AD10A79D209278AB007EED34 /* sheep_2@3x.gif */,
+				AD10A7A0209278AF007EED34 /* sheep_3@3x.gif */,
+				AD10A79C209278AB007EED34 /* sheep_4@3x.gif */,
+				AD10A79E209278AC007EED34 /* sheep_5@3x.gif */,
+				AD10A79F209278AD007EED34 /* sheep_6@3x.gif */,
+			);
+			path = mainSheep;
+			sourceTree = "<group>";
+		};
+		AD10A7A6209279E6007EED34 /* movingSheep */ = {
+			isa = PBXGroup;
+			children = (
+				AD67CE2D208D3CEB00B535F2 /* sheepRun1.gif */,
+				AD10A7A920927A2C007EED34 /* sheepRun2.gif */,
+				AD10A7A720927A2B007EED34 /* sheepRun3.gif */,
+				AD10A7AB20927A2D007EED34 /* sheepRun4.gif */,
+				AD10A7AA20927A2C007EED34 /* sheepRun5.gif */,
+				AD10A7A820927A2C007EED34 /* sheepRun6.gif */,
+			);
+			path = movingSheep;
+			sourceTree = "<group>";
+		};
 		AD15D97320793F08008B8AF7 /* MP3 */ = {
 			isa = PBXGroup;
 			children = (
-				AD15D97420793F11008B8AF7 /* music.mp3 */,
+				AD652E6B20AB716C003A424D /* music.mp3 */,
 			);
 			path = MP3;
 			sourceTree = "<group>";
@@ -128,6 +205,7 @@
 		AD70C979206FF69500A6F7A7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ADBCC2A120867A740045D9B5 /* Cell */,
 				AD6C9392207E75E400A45D3A /* Mountains */,
 				AD15D976207950EF008B8AF7 /* Star */,
 				AD70C97F20701AE800A6F7A7 /* Circle */,
@@ -176,6 +254,8 @@
 		AD9C12CB205E99500039A9EF /* Sheep for sleep */ = {
 			isa = PBXGroup;
 			children = (
+				ADF7CFF220A88C7A000EC24C /* HandlerAppDelegate */,
+				AD107FA32087B931006820C0 /* SheepData */,
 				AD6C9395207E766300A45D3A /* Constants */,
 				AD70C979206FF69500A6F7A7 /* Views */,
 				ADE7CAB0205EA6E6002FDBF7 /* Resources */,
@@ -185,6 +265,7 @@
 				AD15D97F207BF887008B8AF7 /* FirstSleepVC.swift */,
 				AD9C12CE205E99500039A9EF /* ViewController.swift */,
 				AD9C12E1205EA1020039A9EF /* GameViewController.swift */,
+				ADBCC29F2086798C0045D9B5 /* TableSheepViewController.swift */,
 				AD9C12D0205E99500039A9EF /* Main.storyboard */,
 				AD9C12D5205E99500039A9EF /* LaunchScreen.storyboard */,
 				AD9C12D8205E99500039A9EF /* Info.plist */,
@@ -198,6 +279,33 @@
 				AD9C12DF205E9BD50039A9EF /* Cookies.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		ADB6E87C208683F5006E55C9 /* SheepRecordCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADBCC2A620867ACA0045D9B5 /* SheepRecordCell.swift */,
+				ADBCC2A220867AA20045D9B5 /* SheepRecordCell.xib */,
+			);
+			path = SheepRecordCell;
+			sourceTree = "<group>";
+		};
+		ADB6E87D20868402006E55C9 /* HeaderSheepCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADB6E87E20868422006E55C9 /* HeaderSheepCell.xib */,
+				ADB6E88020868436006E55C9 /* HeaderSheepCell.swift */,
+			);
+			path = HeaderSheepCell;
+			sourceTree = "<group>";
+		};
+		ADBCC2A120867A740045D9B5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ADB6E87D20868402006E55C9 /* HeaderSheepCell */,
+				ADB6E87C208683F5006E55C9 /* SheepRecordCell */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		ADE7CAA8205EA491002FDBF7 /* Sheep */ = {
@@ -215,6 +323,7 @@
 				ADE7CAAE205EA5C4002FDBF7 /* UIView.swift */,
 				AD70C9902074058400A6F7A7 /* UIColor.swift */,
 				AD15D983207C0795008B8AF7 /* UIDevice.swift */,
+				AD4AC310208E383500D5D550 /* CALayer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,12 +342,22 @@
 		ADE7CAB3205EA74E002FDBF7 /* Gif */ = {
 			isa = PBXGroup;
 			children = (
+				AD10A7A6209279E6007EED34 /* movingSheep */,
+				AD10A79B20927895007EED34 /* mainSheep */,
+				AD67CE31208D407F00B535F2 /* superSheep.gif */,
 				ADE7CAB1205EA747002FDBF7 /* AnimationSheep.gif */,
-				AD15D97B207BEA89008B8AF7 /* sheepSleep1.gif */,
-				AD15D97D207BEAAA008B8AF7 /* sheepSleep2.gif */,
-				AD70C977206FF03700A6F7A7 /* sheep_1@3x.gif */,
+				AD7FE76320C5AF17009BCC5F /* sheepSleep1.gif */,
+				AD7FE76520C5AF42009BCC5F /* sheepSleep2.gif */,
 			);
 			path = Gif;
+			sourceTree = "<group>";
+		};
+		ADF7CFF220A88C7A000EC24C /* HandlerAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ADF7CFF320A88C9D000EC24C /* HandlerAppDelegate.swift */,
+			);
+			path = HandlerAppDelegate;
 			sourceTree = "<group>";
 		};
 		DA743DEFA305CB104BE29FDD /* Pods */ = {
@@ -262,7 +381,6 @@
 				AD9C12C6205E99500039A9EF /* Frameworks */,
 				AD9C12C7205E99500039A9EF /* Resources */,
 				51D257DA6B128B0B57D0AEC8 /* [CP] Embed Pods Frameworks */,
-				041CD379E45C77E37489C925 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,7 +403,7 @@
 				TargetAttributes = {
 					AD9C12C8205E99500039A9EF = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -312,39 +430,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD15D97520793F11008B8AF7 /* music.mp3 in Resources */,
+				AD7FE76620C5AF42009BCC5F /* sheepSleep2.gif in Resources */,
+				AD7FE76420C5AF17009BCC5F /* sheepSleep1.gif in Resources */,
+				AD10A7AE20927A2E007EED34 /* sheepRun2.gif in Resources */,
+				AD67CE32208D407F00B535F2 /* superSheep.gif in Resources */,
+				AD10A7A5209278B0007EED34 /* sheep_3@3x.gif in Resources */,
 				AD70C978206FF03700A6F7A7 /* sheep_1@3x.gif in Resources */,
+				AD652E6C20AB716C003A424D /* music.mp3 in Resources */,
 				AD9C12E0205E9BD50039A9EF /* Cookies.ttf in Resources */,
+				AD67CE2E208D3CEB00B535F2 /* sheepRun1.gif in Resources */,
+				AD10A7B020927A2E007EED34 /* sheepRun4.gif in Resources */,
 				AD70C98120701AFE00A6F7A7 /* Circle.xib in Resources */,
 				AD9C12D7205E99500039A9EF /* LaunchScreen.storyboard in Resources */,
+				AD10A7AD20927A2E007EED34 /* sheepRun6.gif in Resources */,
+				AD10A7A4209278B0007EED34 /* sheep_6@3x.gif in Resources */,
+				AD10A7A1209278B0007EED34 /* sheep_4@3x.gif in Resources */,
 				ADE7CAAC205EA4C9002FDBF7 /* SheepView.xib in Resources */,
 				AD9C12D4205E99500039A9EF /* Assets.xcassets in Resources */,
+				AD10A7A3209278B0007EED34 /* sheep_5@3x.gif in Resources */,
 				AD70C97E206FF6C200A6F7A7 /* Arrow.xib in Resources */,
 				AD9C12D2205E99500039A9EF /* Main.storyboard in Resources */,
 				ADE7CAB2205EA747002FDBF7 /* AnimationSheep.gif in Resources */,
-				AD15D97C207BEA89008B8AF7 /* sheepSleep1.gif in Resources */,
-				AD15D97E207BEAAA008B8AF7 /* sheepSleep2.gif in Resources */,
+				ADB6E87F20868422006E55C9 /* HeaderSheepCell.xib in Resources */,
+				ADBCC2A320867AA20045D9B5 /* SheepRecordCell.xib in Resources */,
+				AD10A7AF20927A2E007EED34 /* sheepRun5.gif in Resources */,
+				AD10A7A2209278B0007EED34 /* sheep_2@3x.gif in Resources */,
+				AD10A7AC20927A2E007EED34 /* sheepRun3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		041CD379E45C77E37489C925 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sheep for sleep/Pods-Sheep for sleep-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		322EAD372D65387ADF8BD6B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,10 +488,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sheep for sleep/Pods-Sheep for sleep-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -393,14 +512,21 @@
 				AD70C98520701BCF00A6F7A7 /* Circle.swift in Sources */,
 				AD9C12CF205E99500039A9EF /* ViewController.swift in Sources */,
 				AD9C12E2205EA1020039A9EF /* GameViewController.swift in Sources */,
+				ADBCC2A02086798C0045D9B5 /* TableSheepViewController.swift in Sources */,
 				AD6C9397207E767700A45D3A /* Constants.swift in Sources */,
+				ADF7CFF420A88C9D000EC24C /* HandlerAppDelegate.swift in Sources */,
 				AD15D982207BF8CB008B8AF7 /* SecondSleepVC.swift in Sources */,
+				ADB6E88120868436006E55C9 /* HeaderSheepCell.swift in Sources */,
+				AD107FA92087BF6B006820C0 /* SheepDataService.swift in Sources */,
 				ADE7CAAF205EA5C4002FDBF7 /* UIView.swift in Sources */,
+				AD107F9E2087B811006820C0 /* SheepData.xcdatamodeld in Sources */,
 				AD15D97A207951C4008B8AF7 /* StarSmall.swift in Sources */,
+				ADBCC2A720867ACA0045D9B5 /* SheepRecordCell.swift in Sources */,
 				ADE7CAAA205EA4B4002FDBF7 /* SheepView.swift in Sources */,
 				AD15D984207C0795008B8AF7 /* UIDevice.swift in Sources */,
 				AD70C9912074058400A6F7A7 /* UIColor.swift in Sources */,
 				AD15D980207BF887008B8AF7 /* FirstSleepVC.swift in Sources */,
+				AD4AC311208E383500D5D550 /* CALayer.swift in Sources */,
 				AD9C12CD205E99500039A9EF /* AppDelegate.swift in Sources */,
 				AD70C97C206FF6B700A6F7A7 /* Arrow.swift in Sources */,
 			);
@@ -543,14 +669,14 @@
 			baseConfigurationReference = 23FA3586A3C4E657C9E7F408 /* Pods-Sheep for sleep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tatiana Pavlenko (4C5H437AS3)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VB25GCX37J;
 				INFOPLIST_FILE = "Sheep for sleep/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sheep-for-sleep.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Samsonov;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -561,15 +687,15 @@
 			baseConfigurationReference = 0CEF352D9A79EE70A29EC0AE /* Pods-Sheep for sleep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Tatiana Pavlenko (VB25GCX37J)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VB25GCX37J;
 				INFOPLIST_FILE = "Sheep for sleep/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sheep-for-sleep.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b2dc7f6b-cac6-4a93-a5d8-22d0c8fbe905";
-				PROVISIONING_PROFILE_SPECIFIER = SamsonovAdhoc;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -597,6 +723,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD107F9C2087B811006820C0 /* SheepData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD107F9D2087B811006820C0 /* SheepData.xcdatamodel */,
+			);
+			currentVersion = AD107F9D2087B811006820C0 /* SheepData.xcdatamodel */;
+			path = SheepData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AD9C12C1205E99500039A9EF /* Project object */;
 }

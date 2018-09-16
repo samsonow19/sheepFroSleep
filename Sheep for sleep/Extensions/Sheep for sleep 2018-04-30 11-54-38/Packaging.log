@@ -1,0 +1,1933 @@
+2018-04-30 08:53:58 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc35e9cd7a0; archive(resolved)='<IDEArchive: 0x7fc35a7444e0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc35e9cd7a0; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc372a2bcd0; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35f0340d0; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35eecb650; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35eb73790; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35ec54600; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35d1c27d0; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35e2602e0; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35e981c00; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='<IDEProvisioningBasicTeam: 0x7fc35ef187b0; teamID='VB25GCX37J', teamName='Tatiana Pavlenko'>'>
+	<IDEDistributionContext: 0x7fc35ce47ae0; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc35ebf80d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc35eb55b80; archive = '<IDEArchive: 0x7fc35a7444e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc35e9cd7a0>
+2018-04-30 08:53:58 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-04-30 08:53:58 +0000  Processing step: IDEDistributionCopyItemStep
+2018-04-30 08:53:58 +0000  Running /usr/bin/ditto '-V' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app'
+2018-04-30 08:53:58 +0000  >>> Copying /Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app 
+2018-04-30 08:53:58 +0000  
+2018-04-30 08:53:58 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-04-30 08:53:58 +0000  35485 bytes for ./_CodeSignature/CodeResources
+2018-04-30 08:53:58 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-04-30 08:53:58 +0000  2045 bytes for ./AppIcon20x20@2x.png
+2018-04-30 08:53:58 +0000  copying file ./AppIcon57x57.png ... 
+2018-04-30 08:53:58 +0000  3060 bytes for ./AppIcon57x57.png
+2018-04-30 08:53:58 +0000  copying file ./Arrow.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  2391 bytes for ./Arrow.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Arrow.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  1730 bytes for ./Arrow.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Circle.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  3194 bytes for ./Circle.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Circle.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  2535 bytes for ./Circle.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-04-30 08:53:58 +0000  3177 bytes for ./AppIcon20x20@3x.png
+2018-04-30 08:53:58 +0000  copying file ./sheep_2@3x.gif ... 
+2018-04-30 08:53:58 +0000  17199 bytes for ./sheep_2@3x.gif
+2018-04-30 08:53:58 +0000  copying file ./AnimationSheep.gif ... 
+2018-04-30 08:53:58 +0000  6533 bytes for ./AnimationSheep.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon29x29.png ... 
+2018-04-30 08:53:58 +0000  1410 bytes for ./AppIcon29x29.png
+2018-04-30 08:53:58 +0000  copying file ./SheepData.momd/VersionInfo.plist ... 
+2018-04-30 08:53:58 +0000  151 bytes for ./SheepData.momd/VersionInfo.plist
+2018-04-30 08:53:58 +0000  copying file ./SheepData.momd/SheepData.mom ... 
+2018-04-30 08:53:58 +0000  1392 bytes for ./SheepData.momd/SheepData.mom
+2018-04-30 08:53:58 +0000  copying file ./sheepRun4.gif ... 
+2018-04-30 08:53:58 +0000  16375 bytes for ./sheepRun4.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-04-30 08:53:58 +0000  7044 bytes for ./AppIcon60x60@2x.png
+2018-04-30 08:53:58 +0000  copying file ./sheepRun5.gif ... 
+2018-04-30 08:53:58 +0000  16315 bytes for ./sheepRun5.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon72x72@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  8566 bytes for ./AppIcon72x72@2x~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./AppIcon29x29@2x.png ... 
+2018-04-30 08:53:58 +0000  3084 bytes for ./AppIcon29x29@2x.png
+2018-04-30 08:53:58 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-04-30 08:53:58 +0000  7044 bytes for ./AppIcon40x40@3x.png
+2018-04-30 08:53:58 +0000  copying file ./sheepRun6.gif ... 
+2018-04-30 08:53:58 +0000  16404 bytes for ./sheepRun6.gif
+2018-04-30 08:53:58 +0000  copying file ./sheep_6@3x.gif ... 
+2018-04-30 08:53:58 +0000  15973 bytes for ./sheep_6@3x.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon57x57@2x.png ... 
+2018-04-30 08:53:58 +0000  6766 bytes for ./AppIcon57x57@2x.png
+2018-04-30 08:53:58 +0000  copying file ./AppIcon29x29~ipad.png ... 
+2018-04-30 08:53:58 +0000  1410 bytes for ./AppIcon29x29~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./sheepRun2.gif ... 
+2018-04-30 08:53:58 +0000  16365 bytes for ./sheepRun2.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon40x40@2x.png ... 
+2018-04-30 08:53:58 +0000  4596 bytes for ./AppIcon40x40@2x.png
+2018-04-30 08:53:58 +0000  copying file ./sheep_4@3x.gif ... 
+2018-04-30 08:53:58 +0000  15930 bytes for ./sheep_4@3x.gif
+2018-04-30 08:53:58 +0000  copying file ./sheepRun3.gif ... 
+2018-04-30 08:53:58 +0000  16258 bytes for ./sheepRun3.gif
+2018-04-30 08:53:58 +0000  copying file ./Sheep for sleep ... 
+2018-04-30 08:53:58 +0000  2679040 bytes for ./Sheep for sleep
+2018-04-30 08:53:58 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-04-30 08:53:58 +0000  5078 bytes for ./AppIcon29x29@3x.png
+2018-04-30 08:53:58 +0000  copying file ./sheepRun1.gif ... 
+2018-04-30 08:53:58 +0000  13987 bytes for ./sheepRun1.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon60x60@3x.png ... 
+2018-04-30 08:53:58 +0000  10740 bytes for ./AppIcon60x60@3x.png
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  1638 bytes for ./Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  1638 bytes for ./Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  2981 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  2976 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  3188 bytes for ./Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  3451 bytes for ./Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  3735 bytes for ./Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  3860 bytes for ./Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  3737 bytes for ./Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  3859 bytes for ./Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/VC1.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  1766 bytes for ./Base.lproj/Main.storyboardc/VC1.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/VC1.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  1766 bytes for ./Base.lproj/Main.storyboardc/VC1.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/VC2.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  1148 bytes for ./Base.lproj/Main.storyboardc/VC2.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/VC2.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  1148 bytes for ./Base.lproj/Main.storyboardc/VC2.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/VC3.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/VC3.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/VC3.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/VC3.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-04-30 08:53:58 +0000  393 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  9655 bytes for ./Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  9762 bytes for ./Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  2329 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  2456 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2018-04-30 08:53:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-04-30 08:53:58 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-04-30 08:53:58 +0000  copying file ./superSheep.gif ... 
+2018-04-30 08:53:58 +0000  4454 bytes for ./superSheep.gif
+2018-04-30 08:53:58 +0000  copying file ./HeaderSheepCell.nib ... 
+2018-04-30 08:53:58 +0000  2435 bytes for ./HeaderSheepCell.nib
+2018-04-30 08:53:58 +0000  copying file ./music.mp3 ... 
+2018-04-30 08:53:58 +0000  944256 bytes for ./music.mp3
+2018-04-30 08:53:58 +0000  copying file ./Assets.car ... 
+2018-04-30 08:53:58 +0000  2002680 bytes for ./Assets.car
+2018-04-30 08:53:58 +0000  copying file ./AppIcon40x40@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  4596 bytes for ./AppIcon40x40@2x~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./sheep_1@3x.gif ... 
+2018-04-30 08:53:58 +0000  15688 bytes for ./sheep_1@3x.gif
+copying file ./SheepRecordCell.nib ... 
+2018-04-30 08:53:58 +0000  8972 bytes for ./SheepRecordCell.nib
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  9174 bytes for ./AppIcon76x76@2x~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./AppIcon72x72~ipad.png ... 
+2018-04-30 08:53:58 +0000  4138 bytes for ./AppIcon72x72~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./sheepSleep1.gif ... 
+2018-04-30 08:53:58 +0000  29475 bytes for ./sheepSleep1.gif
+2018-04-30 08:53:58 +0000  copying file ./sheep_3@3x.gif ... 
+2018-04-30 08:53:58 +0000  15870 bytes for ./sheep_3@3x.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  9935 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./sheepSleep2.gif ... 
+2018-04-30 08:53:58 +0000  30009 bytes for ./sheepSleep2.gif
+2018-04-30 08:53:58 +0000  copying file ./AppIcon50x50~ipad.png ... 
+2648 bytes for ./AppIcon50x50~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  3084 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon50x50@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  5904 bytes for ./AppIcon50x50@2x~ipad.png
+copying file ./AppIcon40x40~ipad.png ... 
+2018-04-30 08:53:58 +0000  2045 bytes for ./AppIcon40x40~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./Frameworks/libswiftMetalKit.dylib ... 
+2018-04-30 08:53:58 +0000  310096 bytes for ./Frameworks/libswiftMetalKit.dylib
+2018-04-30 08:53:58 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-04-30 08:53:58 +0000  307632 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-04-30 08:53:58 +0000  554096 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-04-30 08:53:58 +0000  66629568 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-04-30 08:53:58 +0000  1628560 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+1043024 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+448896 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+740272 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2722304 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+497152 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+257744 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+838736 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/Hero.framework/_CodeSignature/CodeResources ... 
+2018-04-30 08:53:58 +0000  2202 bytes for ./Frameworks/Hero.framework/_CodeSignature/CodeResources
+2018-04-30 08:53:58 +0000  copying file ./Frameworks/Hero.framework/Hero ... 
+2018-04-30 08:53:58 +0000  8726608 bytes for ./Frameworks/Hero.framework/Hero
+2018-04-30 08:53:58 +0000  copying file ./Frameworks/Hero.framework/Info.plist ... 
+730 bytes for ./Frameworks/Hero.framework/Info.plist
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+310608 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+659936 bytes for ./Frameworks/libswiftCoreAudio.dylib
+copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+1310624 bytes for ./Frameworks/libswiftAVFoundation.dylib
+copying file ./Frameworks/libswiftModelIO.dylib ... 
+604032 bytes for ./Frameworks/libswiftModelIO.dylib
+copying file ./Frameworks/libswiftSpriteKit.dylib ... 
+347904 bytes for ./Frameworks/libswiftSpriteKit.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-04-30 08:53:58 +0000  30131392 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-04-30 08:53:58 +0000  copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+483632 bytes for ./Frameworks/libswiftCoreMedia.dylib
+copying file ./Frameworks/libswiftGLKit.dylib ... 
+259184 bytes for ./Frameworks/libswiftGLKit.dylib
+copying file ./Frameworks/libswiftsimd.dylib ... 
+5580000 bytes for ./Frameworks/libswiftsimd.dylib
+copying file ./AppIcon20x20~ipad.png ... 
+2018-04-30 08:53:58 +0000  908 bytes for ./AppIcon20x20~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./embedded.mobileprovision ... 
+2018-04-30 08:53:58 +0000  7467 bytes for ./embedded.mobileprovision
+2018-04-30 08:53:58 +0000  copying file ./Cookies.ttf ... 
+2018-04-30 08:53:58 +0000  50784 bytes for ./Cookies.ttf
+2018-04-30 08:53:58 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2018-04-30 08:53:58 +0000  2045 bytes for ./AppIcon20x20@2x~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./Info.plist ... 
+2018-04-30 08:53:58 +0000  1516 bytes for ./Info.plist
+2018-04-30 08:53:58 +0000  copying file ./sheep_5@3x.gif ... 
+2018-04-30 08:53:58 +0000  16472 bytes for ./sheep_5@3x.gif
+2018-04-30 08:53:58 +0000  copying file ./PkgInfo ... 
+2018-04-30 08:53:58 +0000  8 bytes for ./PkgInfo
+2018-04-30 08:53:58 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2018-04-30 08:53:58 +0000  4428 bytes for ./AppIcon76x76~ipad.png
+2018-04-30 08:53:58 +0000  copying file ./SheepView.nib/objects-11.0+.nib ... 
+2018-04-30 08:53:58 +0000  2547 bytes for ./SheepView.nib/objects-11.0+.nib
+2018-04-30 08:53:58 +0000  copying file ./SheepView.nib/runtime.nib ... 
+2018-04-30 08:53:58 +0000  1882 bytes for ./SheepView.nib/runtime.nib
+2018-04-30 08:53:58 +0000  2018-04-30 08:53:58 +0000  
+
+2018-04-30 08:53:58 +0000  /usr/bin/ditto exited with 0
+2018-04-30 08:53:58 +0000  
+2018-04-30 08:53:58 +0000  2018-04-30 08:53:58 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e9ea080 'org.cocoapods.Hero' '<DVTFilePath:0x7fc35ede6390:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/Hero.framework'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35eb905c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fc35e8e1ef0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ecdff50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc35ec3d360:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCore.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e98e4a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fc35e8e1890:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35aa9d0e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc35ed0aa10:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ee26b70 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc35ed614e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35eeaf260 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc35f279a40:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ed16250 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc35eaf1f30:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc36fd4c5d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fc35f28b8a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ee088d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc35eb31490:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ee66bc0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc35e972850:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35d0961a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc35f2603e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e972110 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fc35f2849d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ec73d30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc35f29a760:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetal.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e9a8030 'com.apple.dt.runtime.swiftMetalKit' '<DVTFilePath:0x7fc35e9a88e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e84de10 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fc35e8ca8d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35f2607e0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc35d3c0790:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35eb159c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc35eae4e20:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e777e60 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7fc35e7339a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e873950 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc35e1f7f60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35e9faa20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc35eb60050:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftos.dylib'>'>
+2018-04-30 08:53:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc35ebb7540 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fc35f27bb60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftsimd.dylib'>'>
+2018-04-30 08:53:58 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-04-30 08:53:58 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-04-30 08:53:58 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-04-30 08:53:58 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-04-30 08:53:58 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-04-30 08:53:58 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-04-30 08:53:59 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-04-30 08:53:59 +0000  Running /usr/bin/ditto '-V' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/BCSymbolMaps/D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap'
+2018-04-30 08:53:59 +0000  >>> Copying /Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap 
+2018-04-30 08:53:59 +0000  copying file ./D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap ... 
+2018-04-30 08:53:59 +0000  310991 bytes for ./D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap
+2018-04-30 08:53:59 +0000  2018-04-30 08:53:59 +0000  
+
+2018-04-30 08:53:59 +0000  /usr/bin/ditto exited with 0
+2018-04-30 08:53:59 +0000  2018-04-30 08:53:59 +0000  
+
+2018-04-30 08:53:59 +0000  Running /usr/bin/ditto '-V' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/BCSymbolMaps/9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap'
+2018-04-30 08:53:59 +0000  >>> Copying /Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap 
+2018-04-30 08:53:59 +0000  copying file ./9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap ... 
+2018-04-30 08:53:59 +0000  306390 bytes for ./9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap
+2018-04-30 08:53:59 +0000  2018-04-30 08:53:59 +0000  
+
+2018-04-30 08:53:59 +0000  /usr/bin/ditto exited with 0
+2018-04-30 08:53:59 +0000  
+2018-04-30 08:53:59 +0000  Running /usr/bin/ditto '-V' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/BCSymbolMaps/B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap'
+2018-04-30 08:53:59 +0000  >>> Copying /Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap 
+2018-04-30 08:53:59 +0000  copying file ./B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap ... 
+2018-04-30 08:54:00 +0000  133706 bytes for ./B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  /usr/bin/ditto exited with 0
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  2018-04-30 08:54:00 +0000  Running /usr/bin/ditto '-V' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/BCSymbolMaps/F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap'
+
+2018-04-30 08:54:00 +0000  >>> Copying /Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/BCSymbolMaps/F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap 
+2018-04-30 08:54:00 +0000  copying file ./F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap ... 
+2018-04-30 08:54:00 +0000  134027 bytes for ./F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap
+2018-04-30 08:54:00 +0000  2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  /usr/bin/ditto exited with 0
+
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  Processing step: IDEDistributionSymbolsStep
+2018-04-30 08:54:00 +0000  Excluding symbols for Hero.framework
+2018-04-30 08:54:00 +0000  Processing symbols for libswiftAVFoundation.dylib
+2018-04-30 08:54:00 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:00 +0000  building file list ... 
+2018-04-30 08:54:00 +0000   0 files...1 file to consider
+2018-04-30 08:54:00 +0000  
+sent 108 bytes  received 20 bytes  256.00 bytes/sec
+total size is 1.25M  speedup is 10239.25
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:00 +0000  
+
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:00 +0000  building file list ... 
+2018-04-30 08:54:00 +0000   0 files...2018-04-30 08:54:00 +0000  13 files to consider
+2018-04-30 08:54:00 +0000  ./
+2018-04-30 08:54:00 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+2018-04-30 08:54:00 +0000  Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:00 +0000  
+sent 464 bytes  received 74 bytes  1.05K bytes/sec
+total size is 5.58M  speedup is 10883.28
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  2018-04-30 08:54:00 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:00 +0000  
+2018-04-30 08:54:00 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftAVFoundation.dylib'
+2018-04-30 08:54:01 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftAVFoundation.dylib [armv7, 0.189670 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftAVFoundation.dylib [armv7s, 0.189670 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftAVFoundation.dylib [arm64, 0.189670 seconds]:
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  Processing symbols for libswiftCore.dylib
+2018-04-30 08:54:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:01 +0000  building file list ... 
+2018-04-30 08:54:01 +0000   0 files...2018-04-30 08:54:01 +0000  1 file to consider
+2018-04-30 08:54:01 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+2018-04-30 08:54:01 +0000  total size is 63.54M  speedup is 555246.40
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  2018-04-30 08:54:01 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:01 +0000  building file list ... 
+2018-04-30 08:54:01 +0000   0 files...2018-04-30 08:54:01 +0000  13 files to consider
+2018-04-30 08:54:01 +0000  ./
+2018-04-30 08:54:01 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:01 +0000  Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:01 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  
+2018-04-30 08:54:01 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:01 +0000  2018-04-30 08:54:01 +0000  
+
+2018-04-30 08:54:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCore.dylib'
+2018-04-30 08:54:02 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCore.dylib [armv7, 0.532788 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCore.dylib [armv7s, 0.532788 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCore.dylib [arm64, 0.532788 seconds]:
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Processing symbols for libswiftCoreAudio.dylib
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  1 file to consider
+2018-04-30 08:54:02 +0000  
+sent 105 bytes  received 20 bytes  250.00 bytes/sec
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  total size is 644.47K  speedup is 5279.49
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  13 files to consider
+2018-04-30 08:54:02 +0000  ./
+2018-04-30 08:54:02 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+2018-04-30 08:54:02 +0000  Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreAudio.dylib'
+2018-04-30 08:54:02 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreAudio.dylib [armv7, 0.004887 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreAudio.dylib [armv7s, 0.004887 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreAudio.dylib [arm64, 0.004887 seconds]:
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Processing symbols for libswiftCoreData.dylib
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  1 file to consider
+2018-04-30 08:54:02 +0000  
+sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 722.92K  speedup is 5969.94
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  13 files to consider
+2018-04-30 08:54:02 +0000  ./
+2018-04-30 08:54:02 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:02 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+
+
+2018-04-30 08:54:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreData.dylib'
+2018-04-30 08:54:02 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreData.dylib [armv7, 0.005394 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreData.dylib [armv7s, 0.005394 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreData.dylib [arm64, 0.005394 seconds]:
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  1 file to consider
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  sent 110 bytes  received 20 bytes  260.00 bytes/sec
+total size is 251.70K  speedup is 1982.65
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  13 files to consider
+2018-04-30 08:54:02 +0000  ./
+2018-04-30 08:54:02 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:02 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreFoundation.dylib'
+2018-04-30 08:54:02 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreFoundation.dylib [armv7, 0.002009 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreFoundation.dylib [armv7s, 0.002009 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreFoundation.dylib [arm64, 0.002009 seconds]:
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  1 file to consider
+2018-04-30 08:54:02 +0000  
+sent 108 bytes  received 20 bytes  256.00 bytes/sec
+total size is 1.55M  speedup is 12723.12
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  13 files to consider
+2018-04-30 08:54:02 +0000  ./
+2018-04-30 08:54:02 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:02 +0000  Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:02 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+2018-04-30 08:54:02 +0000  total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreGraphics.dylib'
+2018-04-30 08:54:02 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreGraphics.dylib [armv7, 0.014169 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreGraphics.dylib [armv7s, 0.014169 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreGraphics.dylib [arm64, 0.014169 seconds]:
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  1 file to consider
+2018-04-30 08:54:02 +0000  
+sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 300.42K  speedup is 2461.06
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  
+2018-04-30 08:54:02 +0000  2018-04-30 08:54:02 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:02 +0000  
+
+2018-04-30 08:54:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:02 +0000  building file list ... 
+2018-04-30 08:54:02 +0000   0 files...2018-04-30 08:54:02 +0000  13 files to consider
+2018-04-30 08:54:02 +0000  ./
+2018-04-30 08:54:02 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:03 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreImage.dylib'
+2018-04-30 08:54:03 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreImage.dylib [armv7, 0.002007 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreImage.dylib [armv7s, 0.002007 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreImage.dylib [arm64, 0.002007 seconds]:
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  Processing symbols for libswiftCoreMedia.dylib
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  1 file to consider
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 472.30K  speedup is 3869.06
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  13 files to consider
+2018-04-30 08:54:03 +0000  ./
+2018-04-30 08:54:03 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+2018-04-30 08:54:03 +0000  Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:03 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreMedia.dylib'
+2018-04-30 08:54:03 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreMedia.dylib [armv7, 0.004231 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreMedia.dylib [armv7s, 0.004231 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftCoreMedia.dylib [arm64, 0.004231 seconds]:
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  Processing symbols for libswiftDarwin.dylib
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  1 file to consider
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  sent 102 bytes  received 20 bytes  244.00 bytes/sec
+total size is 819.08K  speedup is 6874.89
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  13 files to consider
+2018-04-30 08:54:03 +0000  ./
+2018-04-30 08:54:03 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:03 +0000  Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:03 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+2018-04-30 08:54:03 +0000  total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDarwin.dylib'
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:03 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDarwin.dylib [armv7, 0.011917 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDarwin.dylib [armv7s, 0.011917 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDarwin.dylib [arm64, 0.011917 seconds]:
+
+2018-04-30 08:54:03 +0000  Processing symbols for libswiftDispatch.dylib
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  1 file to consider
+2018-04-30 08:54:03 +0000  
+sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 2.60M  speedup is 21954.06
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...13 files to consider
+./
+2018-04-30 08:54:03 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDispatch.dylib'
+2018-04-30 08:54:03 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDispatch.dylib [armv7, 0.027015 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDispatch.dylib [armv7s, 0.027015 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftDispatch.dylib [arm64, 0.027015 seconds]:
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  Processing symbols for libswiftFoundation.dylib
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  1 file to consider
+2018-04-30 08:54:03 +0000  
+sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 28.74M  speedup is 239138.03
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:03 +0000  building file list ... 
+2018-04-30 08:54:03 +0000   0 files...2018-04-30 08:54:03 +0000  13 files to consider
+2018-04-30 08:54:03 +0000  ./
+2018-04-30 08:54:03 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:03 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:03 +0000  
+2018-04-30 08:54:03 +0000  2018-04-30 08:54:03 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:03 +0000  
+
+2018-04-30 08:54:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftFoundation.dylib'
+2018-04-30 08:54:04 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftFoundation.dylib [armv7, 0.194621 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftFoundation.dylib [armv7s, 0.194621 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftFoundation.dylib [arm64, 0.194621 seconds]:
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Processing symbols for libswiftGLKit.dylib
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  1 file to consider
+2018-04-30 08:54:04 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+total size is 253.11K  speedup is 2142.02
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  13 files to consider
+2018-04-30 08:54:04 +0000  ./
+2018-04-30 08:54:04 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:04 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftGLKit.dylib'
+2018-04-30 08:54:04 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftGLKit.dylib [armv7, 0.002173 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftGLKit.dylib [armv7s, 0.002173 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftGLKit.dylib [arm64, 0.002173 seconds]:
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Processing symbols for libswiftMetal.dylib
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  1 file to consider
+2018-04-30 08:54:04 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+total size is 438.38K  speedup is 3709.88
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  13 files to consider
+2018-04-30 08:54:04 +0000  ./
+2018-04-30 08:54:04 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:04 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetal.dylib'
+2018-04-30 08:54:04 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetal.dylib [armv7, 0.003303 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetal.dylib [armv7s, 0.003303 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetal.dylib [arm64, 0.003303 seconds]:
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Processing symbols for libswiftMetalKit.dylib
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  1 file to consider
+2018-04-30 08:54:04 +0000  
+sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 302.83K  speedup is 2500.77
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  13 files to consider
+2018-04-30 08:54:04 +0000  ./
+2018-04-30 08:54:04 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+2018-04-30 08:54:04 +0000  Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:04 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetalKit.dylib'
+2018-04-30 08:54:04 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetalKit.dylib [armv7, 0.003365 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetalKit.dylib [armv7s, 0.003365 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftMetalKit.dylib [arm64, 0.003365 seconds]:
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Processing symbols for libswiftModelIO.dylib
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+ 0 files...2018-04-30 08:54:04 +0000  1 file to consider
+2018-04-30 08:54:04 +0000  
+sent 103 bytes  received 20 bytes  246.00 bytes/sec
+total size is 589.88K  speedup is 4910.83
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  13 files to consider
+2018-04-30 08:54:04 +0000  ./
+2018-04-30 08:54:04 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+2018-04-30 08:54:04 +0000  Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftModelIO.dylib'
+2018-04-30 08:54:04 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftModelIO.dylib [armv7, 0.004667 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftModelIO.dylib [armv7s, 0.004667 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftModelIO.dylib [arm64, 0.004667 seconds]:
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  1 file to consider
+2018-04-30 08:54:04 +0000  
+sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 541.11K  speedup is 4397.59
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:04 +0000  building file list ... 
+2018-04-30 08:54:04 +0000   0 files...2018-04-30 08:54:04 +0000  13 files to consider
+2018-04-30 08:54:04 +0000  ./
+2018-04-30 08:54:04 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:04 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  
+
+2018-04-30 08:54:04 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftObjectiveC.dylib'
+2018-04-30 08:54:04 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftObjectiveC.dylib [armv7, 0.004240 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftObjectiveC.dylib [armv7s, 0.004240 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftObjectiveC.dylib [arm64, 0.004240 seconds]:
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  2018-04-30 08:54:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  
+2018-04-30 08:54:04 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-04-30 08:54:04 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  1 file to consider
+2018-04-30 08:54:05 +0000  
+sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 303.33K  speedup is 2465.14
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  13 files to consider
+2018-04-30 08:54:05 +0000  ./
+2018-04-30 08:54:05 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:05 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftQuartzCore.dylib'
+2018-04-30 08:54:05 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftQuartzCore.dylib [armv7, 0.002604 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftQuartzCore.dylib [armv7s, 0.002604 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftQuartzCore.dylib [arm64, 0.002604 seconds]:
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Processing symbols for libswiftSpriteKit.dylib
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  1 file to consider
+2018-04-30 08:54:05 +0000  
+sent 105 bytes  received 20 bytes  250.00 bytes/sec
+total size is 339.75K  speedup is 2783.23
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  13 files to consider
+2018-04-30 08:54:05 +0000  ./
+2018-04-30 08:54:05 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+2018-04-30 08:54:05 +0000  Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:05 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftSpriteKit.dylib'
+2018-04-30 08:54:05 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftSpriteKit.dylib [armv7, 0.002734 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftSpriteKit.dylib [armv7s, 0.002734 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftSpriteKit.dylib [arm64, 0.002734 seconds]:
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Processing symbols for libswiftUIKit.dylib
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  1 file to consider
+2018-04-30 08:54:05 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+total size is 1018.58K  speedup is 8620.03
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  13 files to consider
+2018-04-30 08:54:05 +0000  ./
+2018-04-30 08:54:05 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftUIKit.dylib'
+2018-04-30 08:54:05 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftUIKit.dylib [armv7, 0.008727 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftUIKit.dylib [armv7s, 0.008727 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftUIKit.dylib [arm64, 0.008727 seconds]:
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Processing symbols for libswiftos.dylib
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  1 file to consider
+2018-04-30 08:54:05 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 485.50K  speedup is 4213.15
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  13 files to consider
+2018-04-30 08:54:05 +0000  ./
+2018-04-30 08:54:05 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:05 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftos.dylib'
+2018-04-30 08:54:05 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftos.dylib [armv7, 0.003880 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftos.dylib [armv7s, 0.003880 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftos.dylib [arm64, 0.003880 seconds]:
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Processing symbols for libswiftsimd.dylib
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftsimd.dylib' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  1 file to consider
+2018-04-30 08:54:05 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 5.32M  speedup is 46500.00
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '--link-dest' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/dSYMs/' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU'
+2018-04-30 08:54:05 +0000  building file list ... 
+2018-04-30 08:54:05 +0000   0 files...2018-04-30 08:54:05 +0000  13 files to consider
+2018-04-30 08:54:05 +0000  ./
+2018-04-30 08:54:05 +0000  Hero.framework.dSYM/
+Hero.framework.dSYM/Contents/
+Hero.framework.dSYM/Contents/Resources/
+2018-04-30 08:54:05 +0000  Hero.framework.dSYM/Contents/Resources/DWARF/
+Sheep for sleep.app.dSYM/
+Sheep for sleep.app.dSYM/Contents/
+Sheep for sleep.app.dSYM/Contents/Resources/
+Sheep for sleep.app.dSYM/Contents/Resources/DWARF/
+2018-04-30 08:54:05 +0000  
+sent 488 bytes  received 98 bytes  1.14K bytes/sec
+2018-04-30 08:54:05 +0000  total size is 5.58M  speedup is 9991.82
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /usr/bin/rsync exited with 0
+
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  
+2018-04-30 08:54:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftsimd.dylib'
+2018-04-30 08:54:05 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftsimd.dylib [armv7, 0.072401 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftsimd.dylib [armv7s, 0.072401 seconds]:
+/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/libswiftsimd.dylib [arm64, 0.072401 seconds]:
+2018-04-30 08:54:05 +0000  2018-04-30 08:54:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-04-30 08:54:05 +0000  
+
+2018-04-30 08:54:05 +0000  Excluding symbols for Sheep for sleep.app
+2018-04-30 08:54:05 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-04-30 08:54:05 +0000  Running /usr/bin/ditto '-V' '/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/SwiftSupport' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/SwiftSupport'
+2018-04-30 08:54:05 +0000  >>> Copying /Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/SwiftSupport 
+2018-04-30 08:54:05 +0000  copying file ./iphoneos/libswiftMetalKit.dylib ... 
+2018-04-30 08:54:05 +0000  355192 bytes for ./iphoneos/libswiftMetalKit.dylib
+2018-04-30 08:54:05 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-04-30 08:54:05 +0000  351529 bytes for ./iphoneos/libswiftCoreImage.dylib
+2018-04-30 08:54:05 +0000  copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-04-30 08:54:05 +0000  737121 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftCore.dylib ... 
+2018-04-30 08:54:06 +0000  96713490 bytes for ./iphoneos/libswiftCore.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-04-30 08:54:06 +0000  2199570 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-04-30 08:54:06 +0000  1410757 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-04-30 08:54:06 +0000  558438 bytes for ./iphoneos/libswiftMetal.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftCoreData.dylib ... 
+2018-04-30 08:54:06 +0000  919232 bytes for ./iphoneos/libswiftCoreData.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-04-30 08:54:06 +0000  3697961 bytes for ./iphoneos/libswiftDispatch.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftos.dylib ... 
+2018-04-30 08:54:06 +0000  656415 bytes for ./iphoneos/libswiftos.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-04-30 08:54:06 +0000  288225 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-04-30 08:54:06 +0000  1091344 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-04-30 08:54:06 +0000  369774 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftCoreAudio.dylib ... 
+2018-04-30 08:54:06 +0000  859482 bytes for ./iphoneos/libswiftCoreAudio.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftAVFoundation.dylib ... 
+2018-04-30 08:54:06 +0000  1819385 bytes for ./iphoneos/libswiftAVFoundation.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftModelIO.dylib ... 
+2018-04-30 08:54:06 +0000  756535 bytes for ./iphoneos/libswiftModelIO.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftSpriteKit.dylib ... 
+2018-04-30 08:54:06 +0000  420260 bytes for ./iphoneos/libswiftSpriteKit.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-04-30 08:54:06 +0000  43073646 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftCoreMedia.dylib ... 
+2018-04-30 08:54:06 +0000  613057 bytes for ./iphoneos/libswiftCoreMedia.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftGLKit.dylib ... 
+2018-04-30 08:54:06 +0000  296698 bytes for ./iphoneos/libswiftGLKit.dylib
+2018-04-30 08:54:06 +0000  copying file ./iphoneos/libswiftsimd.dylib ... 
+2018-04-30 08:54:06 +0000  7424479 bytes for ./iphoneos/libswiftsimd.dylib
+2018-04-30 08:54:06 +0000  
+2018-04-30 08:54:06 +0000  /usr/bin/ditto exited with 02018-04-30 08:54:06 +0000  
+
+2018-04-30 08:54:06 +0000  
+2018-04-30 08:54:06 +0000  Processing step: IDEDistributionAppThinningStep
+2018-04-30 08:54:06 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-04-30 08:54:06 +0000  Processing step: IDEDistributionODRStep
+2018-04-30 08:54:06 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e9ea080 'org.cocoapods.Hero' '<DVTFilePath:0x7fc35ede6390:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/Hero.framework'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35eb905c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fc35e8e1ef0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ecdff50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc35ec3d360:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCore.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e98e4a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fc35e8e1890:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35aa9d0e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc35ed0aa10:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ee26b70 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc35ed614e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35eeaf260 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc35f279a40:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ed16250 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc35eaf1f30:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc36fd4c5d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fc35f28b8a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ee088d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc35eb31490:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ee66bc0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc35e972850:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35d0961a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc35f2603e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e972110 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fc35f2849d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ec73d30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc35f29a760:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetal.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e9a8030 'com.apple.dt.runtime.swiftMetalKit' '<DVTFilePath:0x7fc35e9a88e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e84de10 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fc35e8ca8d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35f2607e0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc35d3c0790:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35eb159c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc35eae4e20:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e777e60 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7fc35e7339a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e873950 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc35e1f7f60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35e9faa20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc35eb60050:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftos.dylib'>'>
+2018-04-30 08:54:06 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc35ebb7540 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fc35f27bb60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftsimd.dylib'>'>
+2018-04-30 08:54:06 +0000  Running /usr/bin/xattr '-crs' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app'
+2018-04-30 08:54:06 +0000  
+2018-04-30 08:54:06 +0000  
+2018-04-30 08:54:06 +0000  /usr/bin/xattr exited with 0
+2018-04-30 08:54:06 +0000  2018-04-30 08:54:06 +0000  
+
+2018-04-30 08:54:06 +0000  Processing step: IDEDistributionCodesignStep
+2018-04-30 08:54:06 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e9ea080 'org.cocoapods.Hero' '<DVTFilePath:0x7fc35ede6390:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/Hero.framework'>'>: {
+}
+2018-04-30 08:54:06 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e9ea080 'org.cocoapods.Hero' '<DVTFilePath:0x7fc35ede6390:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/Hero.framework'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsO4S7IZ
+2018-04-30 08:54:06 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsO4S7IZ' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/Hero.framework'
+2018-04-30 08:54:07 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/Hero.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Hero]
+2018-04-30 08:54:07 +0000  
+2018-04-30 08:54:07 +0000  
+2018-04-30 08:54:07 +0000  2018-04-30 08:54:07 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:07 +0000  
+
+2018-04-30 08:54:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc35eb905c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fc35e8e1ef0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2018-04-30 08:54:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35eb905c0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fc35e8e1ef0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsZEftDa
+2018-04-30 08:54:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsZEftDa' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib'
+2018-04-30 08:54:07 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib: replacing existing signature
+2018-04-30 08:54:07 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2018-04-30 08:54:07 +0000  
+2018-04-30 08:54:07 +0000  
+2018-04-30 08:54:07 +0000  
+2018-04-30 08:54:07 +0000  2018-04-30 08:54:07 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:07 +0000  2018-04-30 08:54:07 +0000  
+
+2018-04-30 08:54:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ecdff50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc35ec3d360:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-04-30 08:54:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ecdff50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc35ec3d360:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsxe5y0V
+2018-04-30 08:54:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsxe5y0V' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCore.dylib'
+2018-04-30 08:54:07 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-04-30 08:54:09 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-04-30 08:54:09 +0000  
+2018-04-30 08:54:09 +0000  
+2018-04-30 08:54:09 +0000  
+2018-04-30 08:54:09 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:09 +0000  2018-04-30 08:54:09 +0000  
+
+2018-04-30 08:54:09 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e98e4a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fc35e8e1890:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2018-04-30 08:54:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e98e4a0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fc35e8e1890:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsFKJekM
+2018-04-30 08:54:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsFKJekM' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib'
+2018-04-30 08:54:09 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib: replacing existing signature
+2018-04-30 08:54:09 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2018-04-30 08:54:09 +0000  2018-04-30 08:54:09 +0000  
+
+2018-04-30 08:54:09 +0000  
+2018-04-30 08:54:09 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:09 +0000  Entitlements for <IDEDistributionItem: 0x7fc35aa9d0e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc35ed0aa10:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2018-04-30 08:54:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35aa9d0e0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc35ed0aa10:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements5yM1NI
+2018-04-30 08:54:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements5yM1NI' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib'
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2018-04-30 08:54:10 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:10 +0000  
+2018-04-30 08:54:10 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ee26b70 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc35ed614e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-04-30 08:54:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ee26b70 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc35ed614e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementse3bKxw
+2018-04-30 08:54:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementse3bKxw' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-04-30 08:54:10 +0000  
+2018-04-30 08:54:10 +0000  2018-04-30 08:54:10 +0000  
+
+2018-04-30 08:54:10 +0000  /usr/bin/codesign exited with 02018-04-30 08:54:10 +0000  
+
+2018-04-30 08:54:10 +0000  
+2018-04-30 08:54:10 +0000  Entitlements for <IDEDistributionItem: 0x7fc35eeaf260 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc35f279a40:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-04-30 08:54:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35eeaf260 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc35f279a40:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsVQyHhe
+2018-04-30 08:54:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsVQyHhe' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-04-30 08:54:10 +0000  
+2018-04-30 08:54:10 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:10 +0000  2018-04-30 08:54:10 +0000  
+
+2018-04-30 08:54:10 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ed16250 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc35eaf1f30:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-04-30 08:54:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ed16250 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc35eaf1f30:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsk2hh3Q
+2018-04-30 08:54:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsk2hh3Q' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib'
+2018-04-30 08:54:10 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-04-30 08:54:11 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  2018-04-30 08:54:11 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  Entitlements for <IDEDistributionItem: 0x7fc36fd4c5d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fc35f28b8a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2018-04-30 08:54:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc36fd4c5d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fc35f28b8a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementspjDEoE
+2018-04-30 08:54:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementspjDEoE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib'
+2018-04-30 08:54:11 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib: replacing existing signature
+2018-04-30 08:54:11 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  2018-04-30 08:54:11 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:11 +0000  2018-04-30 08:54:11 +0000  
+
+2018-04-30 08:54:11 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ee088d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc35eb31490:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-04-30 08:54:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ee088d0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc35eb31490:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsvCIjWo
+2018-04-30 08:54:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsvCIjWo' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib'
+2018-04-30 08:54:11 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-04-30 08:54:11 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-04-30 08:54:11 +0000  
+2018-04-30 08:54:11 +0000  2018-04-30 08:54:11 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:11 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ee66bc0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc35e972850:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-04-30 08:54:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ee66bc0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc35e972850:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsyrsZkL
+2018-04-30 08:54:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsyrsZkL' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib'
+2018-04-30 08:54:11 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-04-30 08:54:12 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-04-30 08:54:12 +0000  
+2018-04-30 08:54:12 +0000  2018-04-30 08:54:12 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:12 +0000  
+
+2018-04-30 08:54:12 +0000  Entitlements for <IDEDistributionItem: 0x7fc35d0961a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc35f2603e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-04-30 08:54:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35d0961a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc35f2603e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements96DIFY
+2018-04-30 08:54:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements96DIFY' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib'
+2018-04-30 08:54:12 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-04-30 08:54:13 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  2018-04-30 08:54:13 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:13 +0000  2018-04-30 08:54:13 +0000  
+
+2018-04-30 08:54:13 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e972110 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fc35f2849d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib'>'>: {
+}
+2018-04-30 08:54:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e972110 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fc35f2849d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementscYDVCZ
+2018-04-30 08:54:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementscYDVCZ' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib'
+2018-04-30 08:54:13 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib: replacing existing signature
+2018-04-30 08:54:13 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGLKit]
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ec73d30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc35f29a760:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-04-30 08:54:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ec73d30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc35f29a760:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsEIJDaA
+2018-04-30 08:54:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsEIJDaA' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetal.dylib'
+2018-04-30 08:54:13 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-04-30 08:54:13 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  
+2018-04-30 08:54:13 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e9a8030 'com.apple.dt.runtime.swiftMetalKit' '<DVTFilePath:0x7fc35e9a88e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib'>'>: {
+}
+2018-04-30 08:54:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e9a8030 'com.apple.dt.runtime.swiftMetalKit' '<DVTFilePath:0x7fc35e9a88e0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements9F2JwL
+2018-04-30 08:54:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements9F2JwL' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib'
+2018-04-30 08:54:13 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib: replacing existing signature
+2018-04-30 08:54:14 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetalKit]
+2018-04-30 08:54:14 +0000  2018-04-30 08:54:14 +0000  
+
+2018-04-30 08:54:14 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:14 +0000  2018-04-30 08:54:14 +0000  
+
+2018-04-30 08:54:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e84de10 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fc35e8ca8d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib'>'>: {
+}
+2018-04-30 08:54:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e84de10 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fc35e8ca8d0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsEqbTt1
+2018-04-30 08:54:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsEqbTt1' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib'
+2018-04-30 08:54:14 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib: replacing existing signature
+2018-04-30 08:54:14 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftModelIO]
+2018-04-30 08:54:14 +0000  
+2018-04-30 08:54:14 +0000  2018-04-30 08:54:14 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:14 +0000  
+2018-04-30 08:54:14 +0000  
+2018-04-30 08:54:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc35f2607e0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc35d3c0790:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-04-30 08:54:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35f2607e0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc35d3c0790:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsl2h4mW
+2018-04-30 08:54:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsl2h4mW' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib'
+2018-04-30 08:54:14 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-04-30 08:54:14 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-04-30 08:54:14 +0000  2018-04-30 08:54:14 +0000  
+
+2018-04-30 08:54:14 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc35eb159c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc35eae4e20:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-04-30 08:54:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35eb159c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc35eae4e20:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementspmGLjv
+2018-04-30 08:54:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementspmGLjv' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib'
+2018-04-30 08:54:14 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  2018-04-30 08:54:15 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:15 +0000  
+
+2018-04-30 08:54:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e777e60 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7fc35e7339a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib'>'>: {
+}
+2018-04-30 08:54:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e777e60 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7fc35e7339a0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements5UiCPU
+2018-04-30 08:54:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements5UiCPU' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib'
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib: replacing existing signature
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSpriteKit]
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:15 +0000  2018-04-30 08:54:15 +0000  
+
+2018-04-30 08:54:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e873950 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc35e1f7f60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-04-30 08:54:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e873950 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc35e1f7f60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements7Zd8PP
+2018-04-30 08:54:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements7Zd8PP' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib'
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  2018-04-30 08:54:15 +0000  2018-04-30 08:54:15 +0000  /usr/bin/codesign exited with 0
+
+
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc35e9faa20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc35eb60050:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-04-30 08:54:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35e9faa20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc35eb60050:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements39Kwbi
+2018-04-30 08:54:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlements39Kwbi' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftos.dylib'
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  /usr/bin/codesign exited with 02018-04-30 08:54:15 +0000  
+
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ebb7540 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fc35f27bb60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2018-04-30 08:54:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ebb7540 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fc35f27bb60:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsTOQMVm
+2018-04-30 08:54:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementsTOQMVm' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftsimd.dylib'
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftsimd.dylib: replacing existing signature
+2018-04-30 08:54:15 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  /usr/bin/codesign exited with 0
+2018-04-30 08:54:15 +0000  
+2018-04-30 08:54:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc35ef1b430 'sheep-for-sleep.com' '<DVTFilePath:0x7fc35e9458f0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app'>'>: {
+    "application-identifier" = "VB25GCX37J.sheep-for-sleep.com";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = VB25GCX37J;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "VB25GCX37J.sheep-for-sleep.com"
+    );
+}
+2018-04-30 08:54:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc35ef1b430 'sheep-for-sleep.com' '<DVTFilePath:0x7fc35e9458f0:'/Users/evgeniysamsonov/Library/Developer/Xcode/Archives/2018-04-30/Sheep for sleep 30.04.2018, 11.52.xcarchive/Products/Applications/Sheep for sleep.app'>'> to: /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementskBUkaL
+2018-04-30 08:54:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '040CEAD5C2904890A6B23AB1E80221520DAE3DD3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/entitlementskBUkaL' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app'
+2018-04-30 08:54:17 +0000  /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root/Payload/Sheep for sleep.app: signed app bundle with Mach-O universal (armv7 arm64) [sheep-for-sleep.com]
+2018-04-30 08:54:17 +0000  2018-04-30 08:54:17 +0000  
+2018-04-30 08:54:17 +0000  /usr/bin/codesign exited with 0
+
+2018-04-30 08:54:17 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-30 08:54:17 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-04-30 08:54:17 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Symbols' '--link-dest' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root'
+2018-04-30 08:54:17 +0000  building file list ... 
+2018-04-30 08:54:17 +0000   0 files...2018-04-30 08:54:17 +0000  64 files to consider
+2018-04-30 08:54:17 +0000  Symbols/
+2018-04-30 08:54:17 +0000  
+sent 3.47K bytes  received 26 bytes  7.00K bytes/sec
+total size is 16.82M  speedup is 4923.38
+2018-04-30 08:54:17 +0000  
+2018-04-30 08:54:17 +0000  
+2018-04-30 08:54:17 +0000  /usr/bin/rsync exited with 02018-04-30 08:54:17 +0000  
+
+2018-04-30 08:54:17 +0000  
+2018-04-30 08:54:17 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root' '/var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Packages/Sheep for sleep.ipa'
+2018-04-30 08:54:17 +0000  >>> Copying /var/folders/57/x07p15nn06l91xcdq83gw8xw0000gr/T/XcodeDistPipeline.MoU/Root 
+2018-04-30 08:54:17 +0000  copying file ./BCSymbolMaps/B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap ... 
+2018-04-30 08:54:17 +0000  133706 bytes for ./BCSymbolMaps/B406F0A8-AEFB-3129-A94C-9DC0DF8CA760.bcsymbolmap
+2018-04-30 08:54:17 +0000  copying file ./BCSymbolMaps/9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap ... 
+2018-04-30 08:54:17 +0000  306390 bytes for ./BCSymbolMaps/9FD97098-9A0F-3831-AFE2-B224FE87AE60.bcsymbolmap
+copying file ./BCSymbolMaps/D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap ... 
+2018-04-30 08:54:17 +0000  310991 bytes for ./BCSymbolMaps/D00AE794-BDA7-355F-9C1C-3FDC48E919A1.bcsymbolmap
+2018-04-30 08:54:17 +0000  copying file ./BCSymbolMaps/F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap ... 
+2018-04-30 08:54:17 +0000  134027 bytes for ./BCSymbolMaps/F035E2E6-AA8D-3246-9898-8BCEA288CCA0.bcsymbolmap
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/_CodeSignature/CodeResources ... 
+2018-04-30 08:54:17 +0000  35485 bytes for ./Payload/Sheep for sleep.app/_CodeSignature/CodeResources
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon20x20@2x.png ... 
+2045 bytes for ./Payload/Sheep for sleep.app/AppIcon20x20@2x.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon57x57.png ... 
+3060 bytes for ./Payload/Sheep for sleep.app/AppIcon57x57.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Arrow.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  2391 bytes for ./Payload/Sheep for sleep.app/Arrow.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Arrow.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  1730 bytes for ./Payload/Sheep for sleep.app/Arrow.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Circle.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  3194 bytes for ./Payload/Sheep for sleep.app/Circle.nib/objects-11.0+.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Circle.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  2535 bytes for ./Payload/Sheep for sleep.app/Circle.nib/runtime.nib
+copying file ./Payload/Sheep for sleep.app/AppIcon20x20@3x.png ... 
+2018-04-30 08:54:17 +0000  3177 bytes for ./Payload/Sheep for sleep.app/AppIcon20x20@3x.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/sheep_2@3x.gif ... 
+2018-04-30 08:54:17 +0000  17199 bytes for ./Payload/Sheep for sleep.app/sheep_2@3x.gif
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AnimationSheep.gif ... 
+6533 bytes for ./Payload/Sheep for sleep.app/AnimationSheep.gif
+copying file ./Payload/Sheep for sleep.app/AppIcon29x29.png ... 
+1410 bytes for ./Payload/Sheep for sleep.app/AppIcon29x29.png
+copying file ./Payload/Sheep for sleep.app/SheepData.momd/VersionInfo.plist ... 
+151 bytes for ./Payload/Sheep for sleep.app/SheepData.momd/VersionInfo.plist
+copying file ./Payload/Sheep for sleep.app/SheepData.momd/SheepData.mom ... 
+1392 bytes for ./Payload/Sheep for sleep.app/SheepData.momd/SheepData.mom
+copying file ./Payload/Sheep for sleep.app/sheepRun4.gif ... 
+2018-04-30 08:54:17 +0000  16375 bytes for ./Payload/Sheep for sleep.app/sheepRun4.gif
+copying file ./Payload/Sheep for sleep.app/AppIcon60x60@2x.png ... 
+2018-04-30 08:54:17 +0000  7044 bytes for ./Payload/Sheep for sleep.app/AppIcon60x60@2x.png
+copying file ./Payload/Sheep for sleep.app/sheepRun5.gif ... 
+2018-04-30 08:54:17 +0000  16315 bytes for ./Payload/Sheep for sleep.app/sheepRun5.gif
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon72x72@2x~ipad.png ... 
+2018-04-30 08:54:17 +0000  8566 bytes for ./Payload/Sheep for sleep.app/AppIcon72x72@2x~ipad.png
+copying file ./Payload/Sheep for sleep.app/AppIcon29x29@2x.png ... 
+2018-04-30 08:54:17 +0000  3084 bytes for ./Payload/Sheep for sleep.app/AppIcon29x29@2x.png
+copying file ./Payload/Sheep for sleep.app/AppIcon40x40@3x.png ... 
+2018-04-30 08:54:17 +0000  7044 bytes for ./Payload/Sheep for sleep.app/AppIcon40x40@3x.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/sheepRun6.gif ... 
+2018-04-30 08:54:17 +0000  16404 bytes for ./Payload/Sheep for sleep.app/sheepRun6.gif
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/sheep_6@3x.gif ... 
+2018-04-30 08:54:17 +0000  15973 bytes for ./Payload/Sheep for sleep.app/sheep_6@3x.gif
+copying file ./Payload/Sheep for sleep.app/AppIcon57x57@2x.png ... 
+6766 bytes for ./Payload/Sheep for sleep.app/AppIcon57x57@2x.png
+copying file ./Payload/Sheep for sleep.app/AppIcon29x29~ipad.png ... 
+1410 bytes for ./Payload/Sheep for sleep.app/AppIcon29x29~ipad.png
+copying file ./Payload/Sheep for sleep.app/sheepRun2.gif ... 
+16365 bytes for ./Payload/Sheep for sleep.app/sheepRun2.gif
+copying file ./Payload/Sheep for sleep.app/AppIcon40x40@2x.png ... 
+4596 bytes for ./Payload/Sheep for sleep.app/AppIcon40x40@2x.png
+copying file ./Payload/Sheep for sleep.app/sheep_4@3x.gif ... 
+15930 bytes for ./Payload/Sheep for sleep.app/sheep_4@3x.gif
+copying file ./Payload/Sheep for sleep.app/sheepRun3.gif ... 
+2018-04-30 08:54:17 +0000  16258 bytes for ./Payload/Sheep for sleep.app/sheepRun3.gif
+copying file ./Payload/Sheep for sleep.app/Sheep for sleep ... 
+2018-04-30 08:54:17 +0000  2184800 bytes for ./Payload/Sheep for sleep.app/Sheep for sleep
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon29x29@3x.png ... 
+5078 bytes for ./Payload/Sheep for sleep.app/AppIcon29x29@3x.png
+copying file ./Payload/Sheep for sleep.app/sheepRun1.gif ... 
+2018-04-30 08:54:17 +0000  13987 bytes for ./Payload/Sheep for sleep.app/sheepRun1.gif
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon60x60@3x.png ... 
+2018-04-30 08:54:17 +0000  10740 bytes for ./Payload/Sheep for sleep.app/AppIcon60x60@3x.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  1638 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/runtime.nib ... 
+1638 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UIViewController-4j1-au-biY.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  2981 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  2976 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/UINavigationController-icl-C5-wP0.nib/runtime.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  3188 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/objects-11.0+.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  3451 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/4j1-au-biY-view-62c-cM-wq4.nib/runtime.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  3735 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  3860 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/N0Y-pj-MV4-view-sYH-v3-ULR.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  3737 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  3859 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/5bM-8A-I8l-view-Ms3-3m-yzZ.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC1.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  1766 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC1.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC1.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  1766 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC1.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC2.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  1148 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC2.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC2.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  1148 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC2.nib/runtime.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC3.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  1149 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC3.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC3.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  1149 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/VC3.nib/runtime.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-04-30 08:54:17 +0000  393 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  9655 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/objects-11.0+.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  9762 bytes for ./Payload/Sheep for sleep.app/Base.lproj/Main.storyboardc/wkK-3Y-sCy-view-smL-Id-3R0.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  2329 bytes for ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-04-30 08:54:17 +0000  2456 bytes for ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:17 +0000  832 bytes for ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+832 bytes for ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+copying file ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Sheep for sleep.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Sheep for sleep.app/superSheep.gif ... 
+2018-04-30 08:54:17 +0000  4454 bytes for ./Payload/Sheep for sleep.app/superSheep.gif
+copying file ./Payload/Sheep for sleep.app/HeaderSheepCell.nib ... 
+2018-04-30 08:54:17 +0000  2435 bytes for ./Payload/Sheep for sleep.app/HeaderSheepCell.nib
+copying file ./Payload/Sheep for sleep.app/music.mp3 ... 
+2018-04-30 08:54:17 +0000  944256 bytes for ./Payload/Sheep for sleep.app/music.mp3
+copying file ./Payload/Sheep for sleep.app/Assets.car ... 
+2018-04-30 08:54:17 +0000  2002680 bytes for ./Payload/Sheep for sleep.app/Assets.car
+copying file ./Payload/Sheep for sleep.app/AppIcon40x40@2x~ipad.png ... 
+2018-04-30 08:54:17 +0000  4596 bytes for ./Payload/Sheep for sleep.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/Sheep for sleep.app/sheep_1@3x.gif ... 
+2018-04-30 08:54:17 +0000  15688 bytes for ./Payload/Sheep for sleep.app/sheep_1@3x.gif
+copying file ./Payload/Sheep for sleep.app/SheepRecordCell.nib ... 
+8972 bytes for ./Payload/Sheep for sleep.app/SheepRecordCell.nib
+copying file ./Payload/Sheep for sleep.app/AppIcon76x76@2x~ipad.png ... 
+2018-04-30 08:54:17 +0000  9174 bytes for ./Payload/Sheep for sleep.app/AppIcon76x76@2x~ipad.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon72x72~ipad.png ... 
+2018-04-30 08:54:17 +0000  4138 bytes for ./Payload/Sheep for sleep.app/AppIcon72x72~ipad.png
+copying file ./Payload/Sheep for sleep.app/sheepSleep1.gif ... 
+2018-04-30 08:54:17 +0000  29475 bytes for ./Payload/Sheep for sleep.app/sheepSleep1.gif
+copying file ./Payload/Sheep for sleep.app/sheep_3@3x.gif ... 
+15870 bytes for ./Payload/Sheep for sleep.app/sheep_3@3x.gif
+copying file ./Payload/Sheep for sleep.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2018-04-30 08:54:17 +0000  9935 bytes for ./Payload/Sheep for sleep.app/AppIcon83.5x83.5@2x~ipad.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/sheepSleep2.gif ... 
+2018-04-30 08:54:17 +0000  30009 bytes for ./Payload/Sheep for sleep.app/sheepSleep2.gif
+copying file ./Payload/Sheep for sleep.app/AppIcon50x50~ipad.png ... 
+2018-04-30 08:54:17 +0000  2648 bytes for ./Payload/Sheep for sleep.app/AppIcon50x50~ipad.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon29x29@2x~ipad.png ... 
+3084 bytes for ./Payload/Sheep for sleep.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/Sheep for sleep.app/AppIcon50x50@2x~ipad.png ... 
+2018-04-30 08:54:17 +0000  5904 bytes for ./Payload/Sheep for sleep.app/AppIcon50x50@2x~ipad.png
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon40x40~ipad.png ... 
+2018-04-30 08:54:17 +0000  2045 bytes for ./Payload/Sheep for sleep.app/AppIcon40x40~ipad.png
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib ... 
+2018-04-30 08:54:17 +0000  310448 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftMetalKit.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-04-30 08:54:17 +0000  307984 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreImage.dylib
+2018-04-30 08:54:17 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-04-30 08:54:17 +0000  554448 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCore.dylib ... 
+2018-04-30 08:54:20 +0000  66629936 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCore.dylib
+2018-04-30 08:54:20 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-04-30 08:54:20 +0000  1628912 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib ... 
+2018-04-30 08:54:20 +0000  1043376 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftUIKit.dylib
+2018-04-30 08:54:20 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftMetal.dylib ... 
+2018-04-30 08:54:20 +0000  449248 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftMetal.dylib
+2018-04-30 08:54:20 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib ... 
+2018-04-30 08:54:21 +0000  740624 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreData.dylib
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib ... 
+2018-04-30 08:54:21 +0000  2722656 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftDispatch.dylib
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftos.dylib ... 
+2018-04-30 08:54:21 +0000  497504 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftos.dylib
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-04-30 08:54:21 +0000  258096 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreFoundation.dylib
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib ... 
+2018-04-30 08:54:21 +0000  839088 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftDarwin.dylib
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/Hero.framework/_CodeSignature/CodeResources ... 
+2018-04-30 08:54:21 +0000  2202 bytes for ./Payload/Sheep for sleep.app/Frameworks/Hero.framework/_CodeSignature/CodeResources
+copying file ./Payload/Sheep for sleep.app/Frameworks/Hero.framework/Hero ... 
+2018-04-30 08:54:21 +0000  6241552 bytes for ./Payload/Sheep for sleep.app/Frameworks/Hero.framework/Hero
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/Hero.framework/Info.plist ... 
+730 bytes for ./Payload/Sheep for sleep.app/Frameworks/Hero.framework/Info.plist
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-04-30 08:54:21 +0000  310976 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib ... 
+2018-04-30 08:54:21 +0000  660288 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreAudio.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib ... 
+2018-04-30 08:54:21 +0000  1310976 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftAVFoundation.dylib
+2018-04-30 08:54:21 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib ... 
+2018-04-30 08:54:21 +0000  604384 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftModelIO.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib ... 
+2018-04-30 08:54:21 +0000  348256 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftSpriteKit.dylib
+copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib ... 
+2018-04-30 08:54:23 +0000  30131744 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftFoundation.dylib
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib ... 
+2018-04-30 08:54:23 +0000  483984 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftCoreMedia.dylib
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib ... 
+2018-04-30 08:54:23 +0000  259536 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftGLKit.dylib
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/Frameworks/libswiftsimd.dylib ... 
+2018-04-30 08:54:23 +0000  5580352 bytes for ./Payload/Sheep for sleep.app/Frameworks/libswiftsimd.dylib
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon20x20~ipad.png ... 
+908 bytes for ./Payload/Sheep for sleep.app/AppIcon20x20~ipad.png
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/embedded.mobileprovision ... 
+2018-04-30 08:54:23 +0000  7467 bytes for ./Payload/Sheep for sleep.app/embedded.mobileprovision
+copying file ./Payload/Sheep for sleep.app/Cookies.ttf ... 
+2018-04-30 08:54:23 +0000  50784 bytes for ./Payload/Sheep for sleep.app/Cookies.ttf
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/AppIcon20x20@2x~ipad.png ... 
+2045 bytes for ./Payload/Sheep for sleep.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/Sheep for sleep.app/Info.plist ... 
+2018-04-30 08:54:23 +0000  1516 bytes for ./Payload/Sheep for sleep.app/Info.plist
+copying file ./Payload/Sheep for sleep.app/sheep_5@3x.gif ... 
+2018-04-30 08:54:23 +0000  16472 bytes for ./Payload/Sheep for sleep.app/sheep_5@3x.gif
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/PkgInfo ... 
+8 bytes for ./Payload/Sheep for sleep.app/PkgInfo
+copying file ./Payload/Sheep for sleep.app/AppIcon76x76~ipad.png ... 
+2018-04-30 08:54:23 +0000  4428 bytes for ./Payload/Sheep for sleep.app/AppIcon76x76~ipad.png
+copying file ./Payload/Sheep for sleep.app/SheepView.nib/objects-11.0+.nib ... 
+2018-04-30 08:54:23 +0000  2547 bytes for ./Payload/Sheep for sleep.app/SheepView.nib/objects-11.0+.nib
+2018-04-30 08:54:23 +0000  copying file ./Payload/Sheep for sleep.app/SheepView.nib/runtime.nib ... 
+2018-04-30 08:54:23 +0000  1882 bytes for ./Payload/Sheep for sleep.app/SheepView.nib/runtime.nib
+2018-04-30 08:54:23 +0000  copying file ./SwiftSupport/iphoneos/libswiftMetalKit.dylib ... 
+2018-04-30 08:54:23 +0000  309984 bytes for ./SwiftSupport/iphoneos/libswiftMetalKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-04-30 08:54:23 +0000  307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+2018-04-30 08:54:23 +0000  copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-04-30 08:54:23 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2018-04-30 08:54:23 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-04-30 08:54:27 +0000  66629456 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+2018-04-30 08:54:27 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-04-30 08:54:27 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2018-04-30 08:54:27 +0000  copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-04-30 08:54:27 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2018-04-30 08:54:27 +0000  copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-04-30 08:54:27 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+2018-04-30 08:54:27 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreData.dylib ... 
+2018-04-30 08:54:27 +0000  740160 bytes for ./SwiftSupport/iphoneos/libswiftCoreData.dylib
+2018-04-30 08:54:27 +0000  copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-04-30 08:54:28 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+2018-04-30 08:54:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-04-30 08:54:28 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-04-30 08:54:28 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2018-04-30 08:54:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-04-30 08:54:28 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+2018-04-30 08:54:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-04-30 08:54:28 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+2018-04-30 08:54:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreAudio.dylib ... 
+2018-04-30 08:54:28 +0000  659808 bytes for ./SwiftSupport/iphoneos/libswiftCoreAudio.dylib
+copying file ./SwiftSupport/iphoneos/libswiftAVFoundation.dylib ... 
+2018-04-30 08:54:28 +0000  1310496 bytes for ./SwiftSupport/iphoneos/libswiftAVFoundation.dylib
+2018-04-30 08:54:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftModelIO.dylib ... 
+2018-04-30 08:54:28 +0000  603904 bytes for ./SwiftSupport/iphoneos/libswiftModelIO.dylib
+2018-04-30 08:54:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftSpriteKit.dylib ... 
+2018-04-30 08:54:28 +0000  347776 bytes for ./SwiftSupport/iphoneos/libswiftSpriteKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-04-30 08:54:30 +0000  30131264 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-04-30 08:54:30 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreMedia.dylib ... 
+2018-04-30 08:54:30 +0000  483504 bytes for ./SwiftSupport/iphoneos/libswiftCoreMedia.dylib
+2018-04-30 08:54:30 +0000  copying file ./SwiftSupport/iphoneos/libswiftGLKit.dylib ... 
+2018-04-30 08:54:30 +0000  259072 bytes for ./SwiftSupport/iphoneos/libswiftGLKit.dylib
+2018-04-30 08:54:30 +0000  copying file ./SwiftSupport/iphoneos/libswiftsimd.dylib ... 
+2018-04-30 08:54:30 +0000  5579872 bytes for ./SwiftSupport/iphoneos/libswiftsimd.dylib
+2018-04-30 08:54:30 +0000  copying file ./Symbols/196D30CB-517E-33A1-997B-25117A1B587B.symbols ... 
+2018-04-30 08:54:30 +0000  33776 bytes for ./Symbols/196D30CB-517E-33A1-997B-25117A1B587B.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols ... 
+2018-04-30 08:54:30 +0000  2368 bytes for ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/BD91AF44-322B-3DA1-8E5A-3308E5F197A5.symbols ... 
+2018-04-30 08:54:30 +0000  351960 bytes for ./Symbols/BD91AF44-322B-3DA1-8E5A-3308E5F197A5.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/BDBEBEE9-95B4-3557-8F5E-D201DB23A7C5.symbols ... 
+2018-04-30 08:54:30 +0000  22056 bytes for ./Symbols/BDBEBEE9-95B4-3557-8F5E-D201DB23A7C5.symbols
+copying file ./Symbols/C7721013-CB71-3BA1-8F4E-370863B0B408.symbols ... 
+2018-04-30 08:54:30 +0000  66184 bytes for ./Symbols/C7721013-CB71-3BA1-8F4E-370863B0B408.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols ... 
+13208 bytes for ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols
+copying file ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols ... 
+2018-04-30 08:54:30 +0000  6592 bytes for ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols ... 
+2018-04-30 08:54:30 +0000  43960 bytes for ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols ... 
+2018-04-30 08:54:30 +0000  2472 bytes for ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols
+copying file ./Symbols/94A6C7CC-8135-3560-A038-FDD8BEAC92D2.symbols ... 
+2018-04-30 08:54:30 +0000  22080 bytes for ./Symbols/94A6C7CC-8135-3560-A038-FDD8BEAC92D2.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols ... 
+2018-04-30 08:54:30 +0000  21552 bytes for ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols
+copying file ./Symbols/379F1C9F-DFE9-3232-8B64-02D6FDACDD70.symbols ... 
+2018-04-30 08:54:30 +0000  17056 bytes for ./Symbols/379F1C9F-DFE9-3232-8B64-02D6FDACDD70.symbols
+copying file ./Symbols/E93539AB-E052-3B89-8B38-6033A16F9E57.symbols ... 
+2018-04-30 08:54:30 +0000  66112 bytes for ./Symbols/E93539AB-E052-3B89-8B38-6033A16F9E57.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/6EEA3CC4-2DA2-3EF5-A4FA-FE2CEAE138B9.symbols ... 
+2018-04-30 08:54:30 +0000  32880 bytes for ./Symbols/6EEA3CC4-2DA2-3EF5-A4FA-FE2CEAE138B9.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/1D4E733F-0111-31DE-B61D-E31424A6B62E.symbols ... 
+2018-04-30 08:54:30 +0000  33704 bytes for ./Symbols/1D4E733F-0111-31DE-B61D-E31424A6B62E.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols ... 
+2018-04-30 08:54:30 +0000  3348520 bytes for ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/C6B2ECD1-84CC-3DEC-AB43-526B63DC7B2F.symbols ... 
+2018-04-30 08:54:30 +0000  4384 bytes for ./Symbols/C6B2ECD1-84CC-3DEC-AB43-526B63DC7B2F.symbols
+copying file ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols ... 
+2018-04-30 08:54:30 +0000  44536 bytes for ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols ... 
+2018-04-30 08:54:30 +0000  12952 bytes for ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols ... 
+2018-04-30 08:54:30 +0000  103104 bytes for ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/01D77D6A-3AF9-3385-A975-824A71678146.symbols ... 
+2018-04-30 08:54:30 +0000  32984 bytes for ./Symbols/01D77D6A-3AF9-3385-A975-824A71678146.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/DAF9ECEC-8CF0-3C26-8DD8-8A921EEC9F08.symbols ... 
+2018-04-30 08:54:30 +0000  2840 bytes for ./Symbols/DAF9ECEC-8CF0-3C26-8DD8-8A921EEC9F08.symbols
+copying file ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols ... 
+2018-04-30 08:54:30 +0000  223640 bytes for ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols ... 
+2018-04-30 08:54:30 +0000  21552 bytes for ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/E66913AF-D1D8-3BD7-91A0-F085B1296D91.symbols ... 
+2018-04-30 08:54:30 +0000  9672 bytes for ./Symbols/E66913AF-D1D8-3BD7-91A0-F085B1296D91.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols ... 
+2018-04-30 08:54:30 +0000  6592 bytes for ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols ... 
+2728 bytes for ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols
+copying file ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols ... 
+2018-04-30 08:54:30 +0000  21592 bytes for ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols ... 
+2018-04-30 08:54:30 +0000  3347936 bytes for ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols ... 
+2018-04-30 08:54:30 +0000  6928 bytes for ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols
+copying file ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols ... 
+2018-04-30 08:54:30 +0000  102384 bytes for ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/B674700D-B0C5-3BD9-8F12-8F5271902AD6.symbols ... 
+2018-04-30 08:54:30 +0000  4528 bytes for ./Symbols/B674700D-B0C5-3BD9-8F12-8F5271902AD6.symbols
+copying file ./Symbols/28788DF8-0C56-39D8-9696-78BF42C232B3.symbols ... 
+2018-04-30 08:54:30 +0000  2768 bytes for ./Symbols/28788DF8-0C56-39D8-9696-78BF42C232B3.symbols
+copying file ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols ... 
+2018-04-30 08:54:30 +0000  60328 bytes for ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/C3D09CF9-B972-324D-A8DF-4037C9035D65.symbols ... 
+2018-04-30 08:54:30 +0000  17088 bytes for ./Symbols/C3D09CF9-B972-324D-A8DF-4037C9035D65.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/E5143D56-4246-354C-B5FB-5F476F7927D8.symbols ... 
+2018-04-30 08:54:30 +0000  9672 bytes for ./Symbols/E5143D56-4246-354C-B5FB-5F476F7927D8.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/54A77D22-FA57-39A2-812A-EDC0C3E099FE.symbols ... 
+2018-04-30 08:54:30 +0000  33696 bytes for ./Symbols/54A77D22-FA57-39A2-812A-EDC0C3E099FE.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols ... 
+2018-04-30 08:54:30 +0000  13208 bytes for ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols ... 
+2018-04-30 08:54:30 +0000  2816 bytes for ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols
+copying file ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols ... 
+2018-04-30 08:54:30 +0000  60000 bytes for ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols
+2018-04-30 08:54:30 +0000  copying file ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols ... 
+2018-04-30 08:54:31 +0000  1510736 bytes for ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols ... 
+2018-04-30 08:54:31 +0000  13120 bytes for ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols ... 
+2018-04-30 08:54:31 +0000  2368 bytes for ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols
+copying file ./Symbols/3853BB95-52D0-3DC0-9A64-EA1AFB37394F.symbols ... 
+2018-04-30 08:54:31 +0000  32880 bytes for ./Symbols/3853BB95-52D0-3DC0-9A64-EA1AFB37394F.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols ... 
+2018-04-30 08:54:31 +0000  2728 bytes for ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols
+copying file ./Symbols/50E20B3F-0C71-3990-900E-A700EAA6E678.symbols ... 
+2018-04-30 08:54:31 +0000  352104 bytes for ./Symbols/50E20B3F-0C71-3990-900E-A700EAA6E678.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/EA9091D2-D29C-3FD8-A3D0-B17469A01E2D.symbols ... 
+2018-04-30 08:54:31 +0000  9848 bytes for ./Symbols/EA9091D2-D29C-3FD8-A3D0-B17469A01E2D.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/32FE347D-0071-3FB5-A363-6DA8F3F468CD.symbols ... 
+2018-04-30 08:54:31 +0000  17056 bytes for ./Symbols/32FE347D-0071-3FB5-A363-6DA8F3F468CD.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols ... 
+2018-04-30 08:54:31 +0000  12952 bytes for ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols ... 
+2018-04-30 08:54:31 +0000  12760 bytes for ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols ... 
+2018-04-30 08:54:31 +0000  103176 bytes for ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols ... 
+2018-04-30 08:54:31 +0000  3329432 bytes for ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols ... 
+2018-04-30 08:54:31 +0000  221720 bytes for ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols ... 
+2018-04-30 08:54:31 +0000  44536 bytes for ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/6CF0F0C3-7331-3766-B7A8-4531A305B9BB.symbols ... 
+2018-04-30 08:54:31 +0000  4384 bytes for ./Symbols/6CF0F0C3-7331-3766-B7A8-4531A305B9BB.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/E81A3AA0-32B9-3F3D-99E4-44DC63740CF1.symbols ... 
+2018-04-30 08:54:31 +0000  22080 bytes for ./Symbols/E81A3AA0-32B9-3F3D-99E4-44DC63740CF1.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols ... 
+2018-04-30 08:54:31 +0000  1504856 bytes for ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols ... 
+2018-04-30 08:54:31 +0000  1510592 bytes for ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/237CEB32-EAFD-3D03-B435-98E851F96A92.symbols ... 
+2018-04-30 08:54:31 +0000  347696 bytes for ./Symbols/237CEB32-EAFD-3D03-B435-98E851F96A92.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/44E395BA-BD6B-37B4-BECE-9FB8984E3D64.symbols ... 
+2768 bytes for ./Symbols/44E395BA-BD6B-37B4-BECE-9FB8984E3D64.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols ... 
+2018-04-30 08:54:31 +0000  60328 bytes for ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/4DF0DB0D-316F-3A99-8048-9BB2FA0C0AAF.symbols ... 
+2018-04-30 08:54:31 +0000  66240 bytes for ./Symbols/4DF0DB0D-316F-3A99-8048-9BB2FA0C0AAF.symbols
+2018-04-30 08:54:31 +0000  copying file ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols ... 
+2018-04-30 08:54:31 +0000  223712 bytes for ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols
+2018-04-30 08:54:31 +0000  
+2018-04-30 08:54:31 +0000  2018-04-30 08:54:31 +0000  /usr/bin/ditto exited with 0
+
+2018-04-30 08:54:31 +0000  2018-04-30 08:54:31 +0000  
+
+2018-04-30 08:54:31 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-04-30 08:54:31 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
