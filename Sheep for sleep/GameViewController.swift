@@ -125,15 +125,6 @@ class GameViewController: UIViewController {
         createNewSheep()
         startPlaySound()
 
-        /*
-        let arrow: Arrow = UIView.instantiateFromNib()
-        let sheepFrame = sheepView?.sheepImage.frame ?? CGRect.zero
-        let originY = self.view.frame.height - sheepFrame.height - 120
-        
-        arrow.frame = CGRect(x: sheepFrame.width - 70, y: originY - 20, width: 45, height: 65)
-        self.view.addSubview(arrow)
-        self.arrow = arrow*/
-        //moc()
     }
     
     private func startSheepInHerd(_ count: Int) {
@@ -174,12 +165,7 @@ class GameViewController: UIViewController {
         lastXforHeard -= densityHeard
         let startPoint = CGPoint(x: maxX, y: Int(maxY))
         self.addTo(point: findGrinPicksell(point: startPoint), maxX: maxX)
-        /*
-        DispatchQueue.global(qos: .background).async(.promise) {
-            self.findGrinPicksell(point: startPoint)
-        }.done { point in
-            self.addTo(point: point, maxX: maxX)
-        }*/
+
     }
     
     private func addTo(point: CGPoint, maxX: Int) {
@@ -233,64 +219,6 @@ class GameViewController: UIViewController {
         newSheep.center = findPoint
         self.thirdMountain.sendSubview(toBack: newSheep)
     }
-    
-    /*
-    private func addTo(point: CGPoint, maxX: Int) {
-        
-        let image = UIImage(named: currentHerdSheep)!
-        let newSheep = UIImageView(image: image)
-        newSheep.isHidden = true
-        conteinerViewSheep.append(newSheep)
-        conteinerViewSheepIsHiden.append(true)
-        newSheep.frame = CGRect.zero
-        
-        self.thirdMountain.insertSubview(newSheep, at: 200)
-        
-        var findPoint = point
-        let size = CGSize(width: 50, height: 50)
-        if topLastRow == 0 {
-            findPoint.y += topforHeard
-        } else {
-            findPoint.y = topLastRow
-        }
-        
-        if rowHeard == 3, topLastRow == 0 {
-            topLastRow = findPoint.y
-        }
-        
-        if rowHeard == 4, topLastRow == 0 {
-            topLastRow = findPoint.y
-        }
-        
-        if maxX < indentHerd + 10 {
-            rowHeard += 1
-            if rowHeard == 4 {
-                topLastRow = 0
-                startSheepInHerd(-4)
-                lastXforHeard = Int(UIScreen.main.bounds.width - CGFloat(indentHerd))
-                topforHeard = -5
-            }
-            
-            if rowHeard == 3 {
-                startSheepInHerd(-3)
-                lastXforHeard = Int(UIScreen.main.bounds.width - CGFloat(indentHerd))
-                topforHeard = 15
-            }
-            if rowHeard == 2 {
-                startSheepInHerd(-2)
-                lastXforHeard = Int(UIScreen.main.bounds.width - CGFloat(indentHerd))
-                topforHeard = -7
-            }
-        }
-        
-        
-        newSheep.frame = CGRect(origin: findPoint, size: size)
-        newSheep.center = findPoint
-        self.thirdMountain.sendSubview(toBack: newSheep)
-    }*/
-    
-    
-    
     
     private func findGrinPicksell(point: CGPoint) -> CGPoint {
         var nextPoint = point
@@ -418,8 +346,6 @@ class GameViewController: UIViewController {
             sender.setImage(UIImage(named: "SoundOff"), for: .normal)
             player?.stop()
         }
-        
-        
     }
     
     func createCircle() {
@@ -457,9 +383,7 @@ class GameViewController: UIViewController {
         sheepView.frame = CGRect(x: -100, y:  -100, width: 180, height: 2000)
         sheepView.center = CGPoint(x: p0.x - 100, y: p0.y)
         sheepView.delegate = self
-        
-    
-        
+
         self.sheepView = sheepView
         self.view.addSubview(sheepView)
         moveToStart(view: sheepView)
@@ -565,15 +489,6 @@ class GameViewController: UIViewController {
             self.conteinerViewSheep[index].isHidden = false
         }
         
-        /*
-        DispatchQueue.global(qos: .default).async(.promise) {
-            self.findHideSheep()
-        }.done { index in
-            if let index = index {
-                self.conteinerViewSheep[index].isHidden = false
-                self.conteinerViewSheepIsHiden[index] = false
-            }
-        }*/
     }
     
     private func findHideSheep() -> Int? {
@@ -581,34 +496,7 @@ class GameViewController: UIViewController {
     }
     
     func firstWey() {
-        /*
-        startp0 = CGPoint(x: 90, y: 490 )
-        startp2  = CGPoint(x: 366 , y: 560)
-        startp1 = CGPoint(x: 231, y: 460)*/
-        
-        
-
-//        switch UIDevice().type {
-//        case .iPhoneX :
-//            startp0 = CGPoint(x: 91, y: 573 )
-//            startp2  = CGPoint(x: 370 , y: 659)
-//            startp1 = CGPoint(x: 222, y: 576)
-//        case .iPhone6, .iPhone7, .iPhone8:
-//             startp0 = CGPoint(x: 90, y: 490 )
-//             startp2  = CGPoint(x: 366 , y: 560)
-//             startp1 = CGPoint(x: 231, y: 460)
-//        case .iPhone6Splus, .iPhone7plus, .iPhone8plus:
-//            //todo
-//             startp0 = CGPoint(x: 101, y: 540 )
-//             startp2  = CGPoint(x: 402, y: 610)
-//             startp1 = CGPoint(x: 228, y: 490)
-//        default:
-//            //se 5 и т.д
-//             startp0 = CGPoint(x:82, y: 420 )
-//             startp2  = CGPoint(x:306, y:475 )
-//             startp1 = CGPoint(x: 186, y: 390)
-//        }
-        
+   
         switch ScreenType.currentScreenType() {
         case .iPhoneX :
             startp0 = CGPoint(x: 91, y: 573 )
@@ -644,35 +532,7 @@ class GameViewController: UIViewController {
 
     }
     func secondWey() {
-        /*
-        finishp0 = CGPoint(x: 90, y: 490)
-        finishp2  = CGPoint(x: 363 , y: 410)
-        finishp1 = CGPoint(x: 220, y: 370)*/
-        
-       
-    
-        //TODO: Add aphone 10
 
-//        switch UIDevice().type {
-//        case .iPhoneX :
-//            finishp0 = CGPoint(x: 91, y: 573)
-//            finishp2  = CGPoint(x: 367 , y: 477)
-//            finishp1 = CGPoint(x: 274, y: 440)
-//        case .iPhone6, .iPhone7, .iPhone8:
-//             finishp0 = CGPoint(x: 90, y: 490)
-//             finishp2  = CGPoint(x: 363 , y: 410)
-//             finishp1 = CGPoint(x: 220, y: 370)
-//        case .iPhone6Splus, .iPhone7plus, .iPhone8plus:
-//            //todo
-//             finishp0 = CGPoint(x: 101, y: 540)
-//             finishp2  = CGPoint(x: 420 , y: 440 )
-//             finishp1 = CGPoint(x: 250, y: 400)
-//        default:
-//            //se 5 и т.д
-//             finishp0 = CGPoint(x: 82, y: 420 )
-//             finishp2  = CGPoint(x: 310 , y: 350 )
-//             finishp1 = CGPoint(x: 200, y: 320)
-//        }
         
         switch ScreenType.currentScreenType(){
         case .iPhoneX :
@@ -736,63 +596,28 @@ class GameViewController: UIViewController {
         if countCheep >= 60 {
             changeFon(to: "GameFon6")
             secondYawningSheep()
-//
-//            startAnimationStars()
-//            currentGifForSheep = "sheep_6@3x"
-//            currenSheepRun = "sheepRun6"
-//            currentHerdSheep = "HerdSheep6"
-//            movingSheepImageName = "MovingSheepDark6"
-//            defaultSheepImageName = "DefaultSheepDark6"
-//            updateHerdColor()
             return
         }
         if countCheep >= 50 {
             changeFon(to: "GameFon5")
             startAnimationStars()
-            /*
-            currentGifForSheep = "sheep_5@3x"
-            currenSheepRun = "sheepRun5"
-            currentHerdSheep = "HerdSheep5"
-            defaultSheepImageName = "DefaultSheepDark5"
-            movingSheepImageName = "MovingSheepDark5"
-            updateHerdColor()*/
+
             return
         }
         if countCheep >= 40 {
             changeFon(to: "GameFon4")
             startAnimationStars()
-            /*
-            defaultSheepImageName = "DefaultSheepDark3"
-            movingSheepImageName = "MovingSheepDark4"
-            defaultSheepImageName = "DefaultSheepDark4"
-            currentGifForSheep = "sheep_4@3x"
-            currenSheepRun = "sheepRun4"
-            currentHerdSheep = "HerdSheep4"
-            updateHerdColor()*/
+
             return
         }
         if countCheep >= 30 {
             changeFon(to: "GameFon3")
             firstYawningSheep()
-//            defaultSheepImageName = "DefaultSheepDark3"
-//
-//            currentGifForSheep = "sheep_3@3x"
-//            movingSheepImageName = "MovingSheepDark3"
-//            currenSheepRun = "sheepRun3"
-//            currentHerdSheep = "HerdSheep3"
-//            updateHerdColor()
+
             return
         }
         if countCheep >= 20 {
             changeFon(to: "GameFon2")
-//            defaultSheepImageName = "DefaultSheepDark2"
-//            movingSheepImageName = "MovingSheepDark2"
-//
-//            currentGifForSheep = "sheep_2@3x"
-//            currenSheepRun = "sheepRun2"
-//            currentHerdSheep = "HerdSheep2"
-//            updateHerdColor()
-//
             return
         }
         if countCheep >= 10 {
