@@ -30,7 +30,11 @@ class Circle: UIView {
         shapeLayer.strokeColor = UIColor.white.cgColor
         shapeLayer.lineWidth = 3.0
         circleView.layer.addSublayer(shapeLayer)
-
+    }
+    
+    func checkDarkColor() {
+        countLable.textColor = UIColor(red: 153, green: 124, blue: 184, alpha: 255)
+        circleView.backgroundColor = UIColor(red: 153, green: 124, blue: 184, alpha: 255)
     }
     
 }

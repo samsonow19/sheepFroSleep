@@ -106,6 +106,7 @@ enum ScreenType {
     case iPhone6
     case iPhone6Plus
     case iPhoneX
+    case iPhoneXMax
     
     static func currentScreenType() -> ScreenType {
         
@@ -123,6 +124,8 @@ enum ScreenType {
             return .iPhone6Plus
         case 812:
             return .iPhoneX
+        case 896:
+            return .iPhoneXMax
         default:
             return .undefined
         }

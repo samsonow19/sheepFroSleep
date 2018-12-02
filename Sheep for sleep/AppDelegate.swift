@@ -29,6 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         HandlerAppDelegate.sharedInstance.appDidBecomeActive()
     }
+    
+    func changeRootVC(vc: UIViewController) {
+        UIView.transition(with: self.window!, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+            self.window?.rootViewController = vc
+        }, completion: nil)
+    }
 
 }
 

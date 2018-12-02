@@ -14,7 +14,6 @@ import CoreData
 import PromiseKit
 
 
-
 extension GameViewController: HandlerApp {
     func appDidBecomeActive() {
         if countCheep >= 40 {
@@ -112,7 +111,12 @@ class GameViewController: UIViewController {
     
     var topThirdRow: CGFloat = 0
     var topFourthRow: CGFloat = 0
+    var topNextRow: CGFloat = 0
 
+    @IBAction func fastStart(_ sender: Any) {
+        performSegue(withIdentifier: "nextGame", sender: nil)
+        
+    }
     override func viewDidLoad() {
         HandlerAppDelegate.sharedInstance.delegate = self
         super.viewDidLoad()
@@ -127,7 +131,10 @@ class GameViewController: UIViewController {
 
     }
     
+
+    
     private func startSheepInHerd(_ count: Int) {
+        
         var wight = Int(UIScreen.main.bounds.width / 2)
         var count = count
         while true {
@@ -146,6 +153,8 @@ class GameViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        player(with: soundIsSwitchOn)
+        
         if countCheep >= 40 {
             startAnimationStars()
         }
@@ -154,12 +163,13 @@ class GameViewController: UIViewController {
        
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        player?.stop()
+    }
+    
     private func addSheepInHerd() {
         
-        if rowHeard == 5 {
-            return
-        }
-    
         let maxY = viewForSheeps.frame.origin.y
         let maxX = lastXforHeard
         lastXforHeard -= densityHeard
@@ -169,7 +179,7 @@ class GameViewController: UIViewController {
     }
     
     private func addTo(point: CGPoint, maxX: Int) {
-        if rowHeard == 5 { return }
+
         let image = UIImage(named: currentHerdSheep)!
         let newSheep = UIImageView(image: image)
         newSheep.isHidden = true
@@ -193,25 +203,51 @@ class GameViewController: UIViewController {
             findPoint.y = topFourthRow
         }
         
+        if rowHeard > 4 {
+            findPoint.y = topNextRow
+        }
+        
         if maxX < indentHerd + 10 {
             rowHeard += 1
             if rowHeard == 4 {
                 topLastRow = 0
-                startSheepInHerd(-4)
+                startSheepInHerd(0)
                 lastXforHeard = Int(UIScreen.main.bounds.width - CGFloat(indentHerd))
                 topFourthRow = findPoint.y - 25
 
             }
             
             if rowHeard == 3 {
-                startSheepInHerd(-3)
+                startSheepInHerd(0)
                 lastXforHeard = Int(UIScreen.main.bounds.width - CGFloat(indentHerd))
                 topThirdRow = findPoint.y - 5
             }
             if rowHeard == 2 {
-                startSheepInHerd(-2)
+                startSheepInHerd(0)
                 lastXforHeard = Int(UIScreen.main.bounds.width - CGFloat(indentHerd))
                 topforHeard -= 25
+            }
+            
+            if rowHeard > 4 {
+                
+                let indent: CGFloat
+                if rowHeard % 2 == 0 {
+                    indent = CGFloat(indentHerd)
+                } else {
+                    indent = CGFloat(indentHerd - 12)
+                }
+                
+                startSheepInHerd(0)
+                lastXforHeard = Int(UIScreen.main.bounds.width - indent)
+                topNextRow = findPoint.y - 25
+                createCircle(color: #colorLiteral(red: 0.6, green: 0.4862745098, blue: 0.7215686275, alpha: 1))
+                countLable.textColor = #colorLiteral(red: 0.6, green: 0.4862745098, blue: 0.7215686275, alpha: 1)
+                
+                if findPoint.y < viewForSheeps.frame.origin.y {
+                    performSegue(withIdentifier: "nextGame", sender: nil)
+                    return
+                }
+                
             }
             
         }
@@ -224,12 +260,10 @@ class GameViewController: UIViewController {
         var nextPoint = point
         nextPoint.y += 3
         let color = fonImage.layer.colorOfPoint(point: point)
-        let sheepColorInView = thirdMountain.layer.colorOfPoint(point: point)
-        
+
         let currentColorFirst = currentColorMountainFirst()
         let currentColorSecond = currentColorMountainSecond()
-        let currentSheepColor = UIColor.sheepColor1()
-        
+
         if nextPoint.y > UIScreen.main.bounds.height {
             return point
         }
@@ -341,21 +375,33 @@ class GameViewController: UIViewController {
         soundIsSwitchOn = !soundIsSwitchOn
         if soundIsSwitchOn {
             sender.setImage(UIImage(named: "SoundOn"), for: .normal)
-            player?.play()
+
         } else {
             sender.setImage(UIImage(named: "SoundOff"), for: .normal)
+        }
+        player(with: soundIsSwitchOn)
+    }
+    
+    
+    private func player(with state: Bool) {
+        if soundIsSwitchOn {
+  
+            player?.play()
+        } else {
+
             player?.stop()
         }
     }
     
-    func createCircle() {
+    func createCircle(color: UIColor = UIColor.whiteSheep()) {
+
         let desiredLineWidth: CGFloat = 4
         let hw :CGFloat = desiredLineWidth/2
         let circlePath = UIBezierPath(ovalIn: circleView.bounds.insetBy(dx:hw,dy:hw))
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = circlePath.cgPath
         shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.strokeColor = UIColor.whiteSheep().cgColor
+        shapeLayer.strokeColor = color.cgColor
         shapeLayer.lineWidth = 11
         circleView.layer.addSublayer(shapeLayer)
     }
@@ -502,6 +548,12 @@ class GameViewController: UIViewController {
             startp0 = CGPoint(x: 91, y: 573 )
             startp2  = CGPoint(x: 370 , y: 659)
             startp1 = CGPoint(x: 222, y: 576)
+            
+        case .iPhoneXMax :
+            startp0 = CGPoint(x: 101, y: 628 )
+            startp2  = CGPoint(x: 400 , y: 733)
+            startp1 = CGPoint(x: 256, y: 650)
+            
         case .iPhone6:
             startp0 = CGPoint(x: 90, y: 490 )
             startp2  = CGPoint(x: 366 , y: 560)
@@ -539,6 +591,12 @@ class GameViewController: UIViewController {
             finishp0 = CGPoint(x: 91, y: 573)
             finishp2  = CGPoint(x: 367 , y: 477)
             finishp1 = CGPoint(x: 274, y: 440)
+            
+        case .iPhoneXMax :
+            finishp0 = CGPoint(x: 101, y: 628)
+            finishp2  = CGPoint(x: 400 , y: 528)
+            finishp1 = CGPoint(x: 263, y: 500)
+            
         case .iPhone6:
             finishp0 = CGPoint(x: 90, y: 490)
             finishp2  = CGPoint(x: 363 , y: 410)

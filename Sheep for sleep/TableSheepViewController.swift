@@ -22,6 +22,7 @@ protocol TableSheepDelegate: class {
 }
 
 class TableSheepViewController: UIViewController {
+    
     let idCell: String = "SheepRecordCell"
     let idHeaderCell: String = "HeaderSheepCell"
     var sectionSheep: [SectionSheepData] = []
@@ -99,6 +100,7 @@ class TableSheepViewController: UIViewController {
                                             currentDate: currentDate, sheepRecord: sheepRecord) {
                 currentWeekSheeps.append(currentWeekSheep)
                 newSheepRecords.remove(at: index)
+                index -= 1
                 continue
             }
             
@@ -107,6 +109,7 @@ class TableSheepViewController: UIViewController {
                                               currentDate: lastWeekDate, sheepRecord: sheepRecord) {
                 lastWeekSheeps.append(lastWeekSheep)
                 newSheepRecords.remove(at: index)
+                index -= 1
                 continue
             }
         }
@@ -118,6 +121,7 @@ class TableSheepViewController: UIViewController {
                                                   currentDate: currentDate, sheepRecord: sheepRecord) {
                 currentMonthSheeps.append(currentMonthSheep)
                 newSheepRecords.remove(at: index)
+                index -= 1
                 continue
             }
             
@@ -125,6 +129,7 @@ class TableSheepViewController: UIViewController {
                                                currentDate: lastMonthDate, sheepRecord: sheepRecord) {
                 lastMonthSheeps.append(lastMonthSheep)
                 newSheepRecords.remove(at: index)
+                index -= 1
                 continue
             }
         }
@@ -165,6 +170,7 @@ class TableSheepViewController: UIViewController {
 }
 
 extension TableSheepViewController: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var count = 0
         let sheepData = sectionSheep[section].sheepData.count
